@@ -1,0 +1,13 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Archiver.ProjectArchiver",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Feature/projectarchive",
+        "allowedPushOperations": "CreateAndUpdate"
+      }
+    ]
+  }
+}
