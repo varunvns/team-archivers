@@ -33,20 +33,20 @@ const Accordion = ({ fields }: AccordionProps): JSX.Element => {
   return (
     <div>
       <div className="flex flex-col text-center">
-        <Text tag="h1" className="text-4xl" field={fields.Title} />
-        <RichText field={fields.Description} className="text-xl" />
+        <Text tag="h1" className="text-4xl" field={fields?.Title} />
+        <RichText field={fields?.Description} className="text-xl" />
       </div>
 
       <div className="grid grid-cols-6 gap-4">
-        {fields.Content.map((item: any, index: number) => (
-          <div key={item.id} className="col-start-2 col-span-4">
+        {fields?.Content?.map((item: any, index: number) => (
+          <div key={item?.id} className="col-start-2 col-span-4">
             <div
               onClick={() => handleSetIndex(index)}
               className="rounded-t-lg border border-neutral-200 bg-white dark:border-neutral-600 dark:bg-neutral-800 mt-2"
             >
               <div className="flex justify-between p-4">
                 <div className="text-white font-bold">
-                  <Text field={item.fields.Name} />
+                  <Text field={item?.fields?.Name} />
                 </div>
 
                 <div className="flex items-right justify-right">
@@ -58,11 +58,15 @@ const Accordion = ({ fields }: AccordionProps): JSX.Element => {
             {activeIndex === index && (
               <div className="shadow-3xl rounded-b-lg shadow-cyan-500/50 p-4 mb-6 bg-gray-700 flex">
                 <div className="mr-5">
-                  <NextImage field={item.fields.Thumbnail} className="max-h-40" />
+                  <NextImage field={item?.fields?.Thumbnail} className="max-h-40" />
                 </div>
                 <div>
-                  <Text tag="p" className="text-2xl" field={item.fields.JobTitle.fields.Title} />
-                  <RichText field={item.fields.Description} />
+                  <Text
+                    tag="p"
+                    className="text-2xl"
+                    field={item?.fields?.JobTitle?.fields?.Title}
+                  />
+                  <RichText field={item?.fields?.Description} />
                 </div>
               </div>
             )}
@@ -73,6 +77,4 @@ const Accordion = ({ fields }: AccordionProps): JSX.Element => {
   );
 };
 
-// @todo: Figure out how to mock isPageEditing, or if it even matters, in Storybook.
-// export default withDatasourceCheck()<AccordionProps>(Accordion);
 export default Accordion;
