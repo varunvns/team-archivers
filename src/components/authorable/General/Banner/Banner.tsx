@@ -6,21 +6,20 @@ import { ProjectArchive } from 'models/Feature.ProjectArchive.Model';
 
 // Ideally, all this is from generated Typescript code from Sitecore and we're not manually defining types.
 
-export type BannerProps = ProjectArchive.DatasourceTemplates.Global.Banner.Fields.Banner & {
-  uid: string;
-  componentName: string;
-  dataSource: string;
-  // params?:;
-};
+export type BannerProps =
+  ProjectArchive.DatasourceTemplates.Global.Banner.Fields.BannerComponent & {
+    uid: string;
+    componentName: string;
+    dataSource: string;
+    // params?:;
+  };
 
 const Banner = ({ fields }: BannerProps): JSX.Element => {
   // Fail out if fields aren't present
   if (fields === null || fields === undefined) return <></>;
   return (
-    // bg-theme-bg border border-b-4 border-b-primary border-black dark:border-gray dark:border-b-primary max-w-lg p-2
     <div
       className="min-h-[500px] bg-black relative"
-      // style={{ backgroundImage: `url(${fields?.BannerImage?.value?.src})` }}
       data-component="authorable/general/Banner"
       data-testid="Banner"
     >
