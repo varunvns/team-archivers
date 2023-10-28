@@ -8,9 +8,6 @@ import { RiArrowUpSLine, RiArrowDownSLine } from 'react-icons/ri';
 import { ProjectArchive } from 'models/Feature.ProjectArchive.Model';
 
 // Ideally, all this is from generated Typescript code from Sitecore and we're not manually defining types.
-// interface Fields {
-//   text: Field<string>;
-// }
 
 export type AccordionProps =
   ProjectArchive.DatasourceTemplates.Global.Accordion.Fields.AccordionComponent & {
