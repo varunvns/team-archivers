@@ -1,15 +1,15 @@
 ﻿---
-ID: "b69e32fe-41a3-4658-b8f5-e375622800c5"
+ID: "4b841f20-10d0-4cff-a61e-1e2d980f274b"
 Parent: "12e00961-175f-443b-834d-adf8affbd8c1"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseInfo
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseCard
 SharedFields:
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{906C98CC-F551-4A42-A007-C6E2285EDBB0}"
+  Value: "{C21C8CF1-2B44-44F2-A63E-D6547497BB9A}"
 Languages:
 - Language: en
   Versions:
@@ -28,11 +28,11 @@ Languages:
         sitecore\Varun
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7e778a0e-81aa-419a-964f-7d5b377fd7f2"
+      Value: "e5826763-4c1c-4d43-a647-b3ae73191e87"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\devanshi
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T090214Z
+      Value: 20231028T091857Z

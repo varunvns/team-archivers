@@ -25,16 +25,19 @@ Languages:
         sitecore\Ishika
     - ID: "791cf1ca-5984-4779-8583-bb0110f82bf5"
       Hint: ProjectEndDate
-      Value: 20240105T183000Z
+      Value: 
     - ID: "7a3582f5-4ecc-45cf-9c1d-904a71f384ab"
       Hint: ProjectStatus
-      Value: Hold
+      Value: 
+    - ID: "7d4127df-963c-4806-93ef-197dd902c8c1"
+      Hint: Name
+      Value: $name
     - ID: "8cd811a6-06f4-421f-b1b2-28279c6bd429"
       Hint: ProjectStartDate
-      Value: 20231027T183000Z
+      Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "057a1d6d-09b7-4e14-97aa-330083544708"
+      Value: "a8417270-8c8a-4d48-9197-5f9435a4a2c0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -44,4 +47,4 @@ Languages:
       Value: "<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi quisquam perspiciatis maxime similique fuga eligendi perferendis. Odit, rem voluptates!</div>"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T063250Z
+      Value: 20231028T090201Z

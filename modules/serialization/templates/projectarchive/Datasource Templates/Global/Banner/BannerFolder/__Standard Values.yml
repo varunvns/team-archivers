@@ -1,12 +1,14 @@
 ﻿---
-ID: "81645d8e-d8f4-4e1a-aad6-69bf13b29517"
-Parent: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project
+ID: "0488403c-e03f-41d9-ad5a-b981330f87b3"
+Parent: "64f6791f-177c-4c7e-a3ec-4b0aeeec5e73"
+Template: "64f6791f-177c-4c7e-a3ec-4b0aeeec5e73"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerFolder/__Standard Values
 SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 400
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {64F6791F-177C-4C7E-A3EC-4B0AEEEC5E73}
+    {51DF041C-259E-4B43-B719-ACC1EFB3A5E6}
 Languages:
 - Language: en
   Versions:
@@ -14,7 +16,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T052247Z
+      Value: 20231028T074252Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -25,11 +27,11 @@ Languages:
         sitecore\Ishika
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fcfa117c-354a-49dd-982d-516e44c5fa29"
+      Value: "a624bd05-195a-4843-8184-6bc6327cb511"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Varun
+        sitecore\Ishika
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T085246Z
+      Value: 20231028T075153Z
