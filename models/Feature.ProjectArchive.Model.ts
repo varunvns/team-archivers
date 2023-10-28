@@ -20,13 +20,14 @@ import {
 // @ts-ignore Prevent noUnusedLocals from triggering an error, we import all core field types to minimize changing to code generation.
 import { DefaultComponentProps } from '@/lib/component-props';
 
-export namespace ProjectArchive.DatasourceTemplates.Global.Accordian.Fields {
-  export type Accordian = {
-    fields?: {
-      /**
-      * Represents the Content field (f69a8fec-9fb4-4bec-96c8-009031bb5dce).
-      */
-      Content: Sitecore.Override.ItemEx[];
+
+export namespace ProjectArchive.DatasourceTemplates.Global.Accordion.Fields {
+    export type AccordionComponent = { 
+        fields?: { 
+            /**
+            * Represents the Content field (f69a8fec-9fb4-4bec-96c8-009031bb5dce).
+            */
+            Content: Sitecore.Override.ItemEx[];
 
       /**
       * Represents the Description field (5e58f487-4cb2-4692-ab53-bc372a90dc03).
