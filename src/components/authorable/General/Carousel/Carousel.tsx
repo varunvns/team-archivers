@@ -1,32 +1,43 @@
 // import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Text, Link, Image } from '@sitecore-jss/sitecore-jss-nextjs';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
+import { ProjectArchive } from '../../../../../models/Feature.ProjectArchive.Model';
 
-// Local
-import RichTextA11yWrapper from 'components/helpers/RichTextA11yWrapper/RichTextA11yWrapper';
-
-// Ideally, all this is from generated Typescript code from Sitecore and we're not manually defining types.
-interface Fields {
-  text: Field<string>;
-}
-
-export type CarouselProps = {
-  rendering: { componentName: string };
-  params: { [key: string]: string };
-  fields: Fields;
-};
+export type CarouselProps =
+  ProjectArchive.DatasourceTemplates.Global.CardListCarousel.Fields.CardList & {
+    rendering: { componentName: string };
+    params: { [key: string]: string };
+    uid: string;
+    componentName: string;
+    dataSource: string;
+    fields: ProjectArchive.DatasourceTemplates.Global.CardListCarousel.Fields.CardList;
+  };
 
 const Carousel = ({ fields }: CarouselProps): JSX.Element => {
   // Fail out if fields aren't present
   if (fields === null || fields === undefined) return <></>;
-
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
-    <div
-      className="bg-theme-bg border border-b-4 border-b-primary border-black dark:border-gray dark:border-b-primary max-w-lg p-2 rounded"
-      data-component="authorable/general/Carousel"
-      data-testid="Carousel"
-    >
-      <p className="font-bold">Carousel</p>
-      <RichTextA11yWrapper data-testid="Carousel" field={fields.text} editable />
+    <div>
+      <h2> Single Item</h2>
+      <Slider {...settings}>
+        {fields?.Cards?.map((crd, index) => (
+          <div key={index}>
+            {crd?.fields?.Thumbnail?.value && <Image field={crd?.fields?.Thumbnail} />}
+            {crd?.fields?.Name?.value && <Text tag="div" field={crd?.fields?.Name} />}
+            {crd?.fields?.Description?.value && <Text tag="p" field={crd?.fields?.Description} />}
+            {crd?.fields?.CTA?.value?.href && <Link field={crd?.fields?.CTA}></Link>}
+          </div>
+        ))}
+      </Slider>
     </div>
   );
 };

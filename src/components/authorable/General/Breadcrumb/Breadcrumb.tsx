@@ -1,12 +1,21 @@
-// import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
-
-// Local
-import RichTextA11yWrapper from 'components/helpers/RichTextA11yWrapper/RichTextA11yWrapper';
-
 // Ideally, all this is from generated Typescript code from Sitecore and we're not manually defining types.
 interface Fields {
-  text: Field<string>;
+  data: {
+    item: {
+      displayName: string;
+      // url: {
+      //   path: string;
+      // };
+      ancestors: [
+        {
+          displayName: string;
+          url: {
+            path: string;
+          };
+        }
+      ];
+    };
+  };
 }
 
 export type BreadcrumbProps = {
@@ -20,14 +29,28 @@ const Breadcrumb = ({ fields }: BreadcrumbProps): JSX.Element => {
   if (fields === null || fields === undefined) return <></>;
 
   return (
-    <div
-      className="bg-theme-bg border border-b-4 border-b-primary border-black dark:border-gray dark:border-b-primary max-w-lg p-2 rounded"
-      data-component="authorable/general/Breadcrumb"
-      data-testid="Breadcrumb"
-    >
-      <p className="font-bold">Breadcrumb</p>
-      <RichTextA11yWrapper data-testid="Breadcrumb" field={fields.text} editable />
-    </div>
+    <>
+      {fields?.data?.item !== null && (
+        <nav className="container">
+          <ol className="list-reset py-4 pl-4 rounded flex bg-grey-light text-grey">
+            {fields?.data?.item.ancestors !== null &&
+              fields?.data?.item.ancestors.reverse().map((anc, index) => (
+                <>
+                  <li className="px-2" key={index}>
+                    <a href={anc.url?.path} className="no-underline text-indigo">
+                      {anc.displayName}
+                    </a>
+                  </li>
+                  <li>/</li>
+                </>
+              ))}
+            {fields?.data?.item.displayName && (
+              <li className="px-2">{fields?.data?.item.displayName}</li>
+            )}
+          </ol>
+        </nav>
+      )}
+    </>
   );
 };
 
