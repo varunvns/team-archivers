@@ -1,0 +1,19 @@
+{
+  
+  "namespace": "Archive.ProjectArchive",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Feature/projectarchive",
+        "database": "master"
+      }
+    ],   
+  },
+  "leprechaun": {
+      "configuration": {
+        "@extends": "ProjectArchive.Base", 
+        "@name": "Feature.ProjectArchive"
+      }
+    }
+}
