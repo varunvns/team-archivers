@@ -79,14 +79,6 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Banner.Fields {
 }
 
 export namespace ProjectArchive.DatasourceTemplates.Global.CardListCarousel.Fields {
-    export type Card = 
-            ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields.BaseCard & { 
-        fields?: {  
-        }
- }; 
-}
-
-export namespace ProjectArchive.DatasourceTemplates.Global.CardListCarousel.Fields {
     export type CardList = { 
         fields?: { 
             /**
