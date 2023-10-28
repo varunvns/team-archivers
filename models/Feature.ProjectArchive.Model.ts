@@ -20,16 +20,6 @@ import {
 // @ts-ignore Prevent noUnusedLocals from triggering an error, we import all core field types to minimize changing to code generation.
 import { DefaultComponentProps } from '@/lib/component-props';
 
-<<<<<<< Updated upstream
-
-export namespace ProjectArchive.DatasourceTemplates.Global.Accordion.Fields {
-    export type AccordionComponent = { 
-        fields?: { 
-            /**
-            * Represents the Content field (f69a8fec-9fb4-4bec-96c8-009031bb5dce).
-            */
-            Content: Sitecore.Override.ItemEx[];
-=======
 export namespace ProjectArchive.DatasourceTemplates.Global.Accordian.Fields {
   export type Accordian = {
     fields?: {
@@ -37,7 +27,6 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Accordian.Fields {
       * Represents the Content field (f69a8fec-9fb4-4bec-96c8-009031bb5dce).
       */
       Content: Sitecore.Override.ItemEx[];
->>>>>>> Stashed changes
 
       /**
       * Represents the Description field (5e58f487-4cb2-4692-ab53-bc372a90dc03).
@@ -93,14 +82,6 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Banner.Fields {
 }
 
 export namespace ProjectArchive.DatasourceTemplates.Global.CardListCarousel.Fields {
-<<<<<<< Updated upstream
-    export type CardList = { 
-        fields?: { 
-            /**
-            * Represents the Cards field (4628f997-16ea-4ef9-96ed-cb4077a70c70).
-            */
-            Cards: Sitecore.Override.ItemEx[];
-=======
   export type Card =
     ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields.BaseCard & {
       fields?: {
@@ -115,7 +96,6 @@ export namespace ProjectArchive.DatasourceTemplates.Global.CardListCarousel.Fiel
       * Represents the Cards field (4628f997-16ea-4ef9-96ed-cb4077a70c70).
       */
       Cards: Sitecore.Override.ItemEx[];
->>>>>>> Stashed changes
 
       /**
       * Represents the Description field (7d6c7332-e469-4f33-8795-5b7b9b75bf7f).
@@ -145,17 +125,10 @@ export namespace ProjectArchive.DatasourceTemplates.Client.Fields {
          */
         Email: Field<string>;
 
-<<<<<<< Updated upstream
-            /**
-            * Represents the IsClientActive field (75a9e5db-3852-41eb-8fdc-31904248fb92).
-            */
-            IsClientActive: Field<boolean>;
-=======
         /**
          * Represents the __Standard Values field (75a9e5db-3852-41eb-8fdc-31904248fb92).
          */
         IsClientActive: Field<boolean>;
->>>>>>> Stashed changes
 
         /**
          * Represents the PhoneNumber field (949eab63-b9eb-458f-9ccc-7885195e4b89).
@@ -279,8 +252,6 @@ export namespace ProjectArchive.DatasourceTemplates.Employee.Fields {
     };
 }
 
-<<<<<<< Updated upstream
-=======
 export namespace ProjectArchive.PageTemplates.Employee.Fields {
   export type EmployeeDetail = ProjectArchive.PageTemplates.Fields.BasePage & {
     fields?: {};
@@ -299,7 +270,6 @@ export namespace ProjectArchive.PageTemplates.Employee.Fields {
   };
 }
 
->>>>>>> Stashed changes
 export namespace ProjectArchive.DatasourceTemplates.Global.Fields {
   export type EnumFolder = {
     fields?: {};
@@ -504,26 +474,12 @@ export namespace ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields 
 }
 
 export namespace ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields {
-<<<<<<< Updated upstream
-    export type BaseInfo = { 
-        fields?: { 
-            /**
-            * Represents the BannerImage field (b88e163e-be02-44d6-880d-6c9c182adf34).
-            */
-            BannerImage: ImageField;
-
-            /**
-            * Represents the Description field (5521ea20-6c42-4aec-ba0b-cea23cee8667).
-            */
-            Description: Field<string>;
-=======
   export type BaseInfo = {
     fields?: {
       /**
       * Represents the Description field (5521ea20-6c42-4aec-ba0b-cea23cee8667).
       */
       Description: Field<string>;
->>>>>>> Stashed changes
 
       /**
       * Represents the Name field (7d4127df-963c-4806-93ef-197dd902c8c1).
