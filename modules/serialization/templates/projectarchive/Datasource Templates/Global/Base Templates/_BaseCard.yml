@@ -1,18 +1,15 @@
 ﻿---
-ID: "c4bdf51a-ee80-486c-bb12-bec26849b238"
-Parent: "7eb2f9e2-9ddb-4949-a9c0-deadf4461f07"
+ID: "4b841f20-10d0-4cff-a61e-1e2d980f274b"
+Parent: "12e00961-175f-443b-834d-adf8affbd8c1"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Card/CardComponent
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseCard
 SharedFields:
-- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
-  Hint: __Icon
-  Value: Apps/32x32/Cddisks.png
 - ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
   Hint: __Base template
   Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{E3129EB9-8DCF-4DEF-9713-D4000F14B500}"
+  Value: "{C21C8CF1-2B44-44F2-A63E-D6547497BB9A}"
 Languages:
 - Language: en
   Versions:
@@ -20,22 +17,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T073310Z
+      Value: 20231028T062913Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\Priyal
+        sitecore\Varun
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Priyal
+        sitecore\Varun
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fc108456-2611-43d6-8f36-a7e8a003c531"
+      Value: "e5826763-4c1c-4d43-a647-b3ae73191e87"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Priyal
+        sitecore\devanshi
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T073623Z
+      Value: 20231028T091857Z

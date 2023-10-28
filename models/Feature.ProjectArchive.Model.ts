@@ -71,8 +71,16 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Banner.Fields {
  }; 
 }
 
-export namespace ProjectArchive.DatasourceTemplates.Global.Card.Fields {
-    export type CardComponent = { 
+export namespace ProjectArchive.DatasourceTemplates.Global.CardListCarousel.Fields {
+    export type Card = 
+            ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields.BaseCard & { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace ProjectArchive.DatasourceTemplates.Global.CardListCarousel.Fields {
+    export type CardList = { 
         fields?: { 
             /**
             * Represents the Cards field (4628f997-16ea-4ef9-96ed-cb4077a70c70).
@@ -88,33 +96,6 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Card.Fields {
             * Represents the Heading field (94520ee7-4112-4a22-b0a9-c22d22deee4a).
             */
             Heading: Field<string>;
- 
-        }
- }; 
-}
-
-export namespace ProjectArchive.DatasourceTemplates.Global.Card.Fields {
-    export type CardDetail = { 
-        fields?: { 
-            /**
-            * Represents the CardCTA field (643998da-449a-441e-99bb-e9497f5dcdca).
-            */
-            CardCTA: LinkField;
-
-            /**
-            * Represents the CardDescription field (7f7d7605-b46f-40a9-9e0a-20722d00ac3b).
-            */
-            CardDescription: Field<string>;
-
-            /**
-            * Represents the CardImage field (10660a12-ee1e-4425-9a98-e066ade0aeba).
-            */
-            CardImage: ImageField;
-
-            /**
-            * Represents the CardTitle field (d56c5adf-6c31-4f2d-9444-20e5397f8486).
-            */
-            CardTitle: Field<string>;
  
         }
  }; 
@@ -452,6 +433,33 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Fields {
 export namespace ProjectArchive.PageTemplates.Fields {
     export type BasePage = { 
         fields?: {  
+        }
+ }; 
+}
+
+export namespace ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields {
+    export type BaseCard = { 
+        fields?: { 
+            /**
+            * Represents the CTA field (d425d8b7-4bfa-47a5-99ec-5d9e92b357bf).
+            */
+            CTA: LinkField;
+
+            /**
+            * Represents the Description field (ea253e68-ae1b-4691-8e41-d4f4852ed951).
+            */
+            Description: Field<string>;
+
+            /**
+            * Represents the Name field (78f43779-2811-43b8-ae82-b9d543d00236).
+            */
+            Name: Field<string>;
+
+            /**
+            * Represents the Thumbnail field (4093d419-0977-4eb3-a882-5c05e9d53a24).
+            */
+            Thumbnail: ImageField;
+ 
         }
  }; 
 }

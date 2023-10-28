@@ -1,8 +1,15 @@
 ﻿---
-ID: "e3129eb9-8dcf-4def-9713-d4000f14b500"
-Parent: "c4bdf51a-ee80-486c-bb12-bec26849b238"
-Template: "c4bdf51a-ee80-486c-bb12-bec26849b238"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Card/CardComponent/__Standard Values
+ID: "7d6c7332-e469-4f33-8795-5b7b9b75bf7f"
+Parent: "14716db5-4a47-4445-8378-1feede06cb22"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/CardListCarousel/CardList/CardTile/Description
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Rich Text
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -10,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T073602Z
+      Value: 20231028T075328Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +28,11 @@ Languages:
         sitecore\Priyal
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ee560297-a6dd-4907-a1d7-80dd1ca2a115"
+      Value: "f788b9c6-9aeb-4d19-a7cc-011e797035ca"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Priyal
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T073602Z
+      Value: 20231028T092810Z
