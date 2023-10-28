@@ -23,6 +23,10 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\Ishika
+    - ID: "65d584b1-9710-4582-a55c-0a89bcecefbb"
+      Hint: Thumbnail
+      Value: |
+        <image mediaid="{53246F0C-1DC4-42E8-A190-417679F2F1E7}" />
     - ID: "791cf1ca-5984-4779-8583-bb0110f82bf5"
       Hint: ProjectEndDate
       Value: 
@@ -37,7 +41,11 @@ Languages:
       Value: 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a8417270-8c8a-4d48-9197-5f9435a4a2c0"
+      Value: "1efdca18-a54f-4bb2-868d-b11fd1ed444c"
+    - ID: "b88e163e-be02-44d6-880d-6c9c182adf34"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="{62432AF5-1323-48A4-B2A9-1A3257923E49}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -47,4 +55,4 @@ Languages:
       Value: "<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi quisquam perspiciatis maxime similique fuga eligendi perferendis. Odit, rem voluptates!</div>"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T090201Z
+      Value: 20231028T104426Z

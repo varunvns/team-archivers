@@ -1,0 +1,56 @@
+﻿---
+ID: "5a201186-24ec-46d9-87d0-e25bb85214a0"
+Parent: "f95db117-6c4e-4516-8be6-434c16a8f9c6"
+Template: "f95db117-6c4e-4516-8be6-434c16a8f9c6"
+Path: /sitecore/templates/Feature/projectarchive/Page Templates/Client/ClientDetail/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{8667C4C3-0607-49DC-8845-6531F6610067}"
+              p:before="*"
+              s:ds="{6032BC88-F96A-44E5-8725-98538BFDAE31}"
+              s:id="{A476DC90-DACD-42C1-AE92-5EF8105863EC}"
+              s:par=""
+              s:ph="headless-header"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{454F1665-F348-45C1-948A-D5D4ACEF8FF9}"
+              p:after="*[1=2]"
+              s:ds="{9F7DEF8A-E0DF-4189-BD55-CA96EFFA8DC4}"
+              s:id="{FB2CBC21-6578-45F5-B3DD-9F8312C12D5F}"
+              s:par=""
+              s:ph="headless-footer"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T112256Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Nilay
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Nilay
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "186be473-b096-44f8-b8ff-b4ca35854cac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Nilay
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T112438Z
