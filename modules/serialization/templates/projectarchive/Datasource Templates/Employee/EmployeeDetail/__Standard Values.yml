@@ -2,11 +2,14 @@
 ID: "c2431ab5-29e3-416a-a7de-9936a51c1679"
 Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
 Template: "96451aac-a053-4548-8e72-6f627ff08f5e"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/__Standard Values
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/EmployeeDetail/__Standard Values
 SharedFields:
 - ID: "796909ef-98c9-4093-8206-07b7c0fd25d5"
   Hint: Id
   Value: 1
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
 Languages:
 - Language: en
   Versions:
@@ -29,10 +32,14 @@ Languages:
         <image mediaid="{094A150E-FAD0-4C0E-8927-DA7D6DF9FBAB}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ae947186-7d46-44fd-82f4-68c9b7f43172"
+      Value: "15176273-d257-40d4-ad84-62daf84c0803"
     - ID: "a0590a2c-767c-4ec0-913c-00e6f50da436"
       Hint: Department
       Value: Full Stack
+    - ID: "b88e163e-be02-44d6-880d-6c9c182adf34"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="{62432AF5-1323-48A4-B2A9-1A3257923E49}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -42,4 +49,4 @@ Languages:
       Value: "{88492BAF-0E1C-4B7C-B507-5B88182AEB33}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T090546Z
+      Value: 20231028T104751Z

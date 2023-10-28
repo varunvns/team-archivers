@@ -23,16 +23,24 @@ Languages:
       Hint: __Created by
       Value: |
         sitecore\Ravi
+    - ID: "65d584b1-9710-4582-a55c-0a89bcecefbb"
+      Hint: Thumbnail
+      Value: |
+        <image mediaid="{53246F0C-1DC4-42E8-A190-417679F2F1E7}" />
     - ID: "7d4127df-963c-4806-93ef-197dd902c8c1"
       Hint: Name
       Value: $name
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8dae48e8-b22c-44a4-bff4-351b3207fe1d"
+      Value: "be102bfa-5498-452a-a3c9-cbb67556b2de"
+    - ID: "b88e163e-be02-44d6-880d-6c9c182adf34"
+      Hint: BannerImage
+      Value: |
+        <image mediaid="{62432AF5-1323-48A4-B2A9-1A3257923E49}" />
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Ravi
+        sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T064009Z
+      Value: 20231028T104530Z

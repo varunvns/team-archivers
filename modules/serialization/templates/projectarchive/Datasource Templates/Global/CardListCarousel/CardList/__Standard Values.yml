@@ -6,9 +6,7 @@ Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Car
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
-  Value: |
-    {C4BDF51A-EE80-486C-BB12-BEC26849B238}
-    {70131D4C-F9CA-45B3-98DE-F7DA07F9A797}
+  Value: 
 Languages:
 - Language: en
   Versions:
@@ -17,6 +15,9 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20231028T073602Z
+    - ID: "4628f997-16ea-4ef9-96ed-cb4077a70c70"
+      Hint: Cards
+      Value: 
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -27,11 +28,11 @@ Languages:
         sitecore\Priyal
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "385f4ea7-9f33-4069-9d7d-baa7e344a8c5"
+      Value: "cc2f28a2-e67a-4027-870a-173b68aebb7d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\devanshi
+        sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T092241Z
+      Value: 20231028T105738Z
