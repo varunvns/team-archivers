@@ -6,7 +6,7 @@ Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Car
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: /sitecore/content/Archives/projectarchive/Data/CardListCarousel
+  Value: DataSource=/sitecore/content/Archives/projectarchive/Data/CardListCarousel&IncludeTemplatesForSelection=Card 
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Treelist
@@ -31,11 +31,11 @@ Languages:
         sitecore\Priyal
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e570a14b-18ae-4cd1-a583-24559c979b0b"
+      Value: "6c70d223-da48-47c9-a386-49f90711638d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Priyal
+        sitecore\devanshi
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T092810Z
+      Value: 20231028T093144Z
