@@ -206,6 +206,11 @@ export namespace ProjectArchive.DatasourceTemplates.Employee.Fields {
             Id: Field<string>;
 
             /**
+            * Represents the IsEmployeeWorking field (55d5f8d3-c85a-4c36-8868-92d6233a10a7).
+            */
+            IsEmployeeWorking: Field<boolean>;
+
+            /**
             * Represents the JobTitle field (d2930811-f8de-409b-8c2b-e514f5e313fa).
             */
             JobTitle?: Sitecore.Override.ItemEx;
@@ -229,11 +234,6 @@ export namespace ProjectArchive.DatasourceTemplates.Employee.Fields {
             * Represents the Skills field (f6a0d2b4-74f2-4cc0-947d-b31ce7e92df2).
             */
             Skills: Sitecore.Override.ItemEx[];
-
-            /**
-            * Represents the status field (55d5f8d3-c85a-4c36-8868-92d6233a10a7).
-            */
-            status: Field<boolean>;
 
             /**
             * Represents the WorkLocation field (8f1675ff-8286-4930-bd3d-60dd62dbba21).
@@ -352,6 +352,13 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Header.Fields {
  }; 
 }
 
+export namespace ProjectArchive.DatasourceTemplates.Global.Fields {
+    export type MainSectionTemplateFolder = { 
+        fields?: {  
+        }
+ }; 
+}
+
 export namespace ProjectArchive.DatasourceTemplates.Project.Fields {
     export type ProjectDetail = 
             ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields.BaseInfo & { 
@@ -411,6 +418,13 @@ export namespace ProjectArchive.PageTemplates.Project.Fields {
  }; 
 }
 
+export namespace ProjectArchive.DatasourceTemplates.Project.Fields {
+    export type ProjectsFolder = { 
+        fields?: {  
+        }
+ }; 
+}
+
 export namespace ProjectArchive.DatasourceTemplates.Global.Fields {
     export type SocialLinkItems = { 
         fields?: { 
@@ -454,18 +468,11 @@ export namespace ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields 
             * Represents the Name field (7d4127df-963c-4806-93ef-197dd902c8c1).
             */
             Name: Field<string>;
- 
-        }
- }; 
-}
 
-export namespace ProjectArchive.Fields {
-    export type Test = { 
-        fields?: { 
             /**
-            * Represents the test2 field (20ec123d-d2a5-4822-a5c3-0f4aa164b39d).
+            * Represents the Thumbnail field (65d584b1-9710-4582-a55c-0a89bcecefbb).
             */
-            test2: Field<string>;
+            Thumbnail: ImageField;
  
         }
  }; 

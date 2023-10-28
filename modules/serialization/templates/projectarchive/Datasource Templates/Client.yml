@@ -3,6 +3,10 @@ ID: "186f5c27-76ba-4023-80b5-2d3f68434975"
 Parent: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -21,11 +25,11 @@ Languages:
         sitecore\Ravi
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "98fed490-7ddb-4bb8-a1a4-ddd37c2cb107"
+      Value: "336ee0b5-cf15-4d6d-9786-9a596e539f1a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Ravi
+        sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T052051Z
+      Value: 20231028T085246Z
