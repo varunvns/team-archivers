@@ -2,12 +2,9 @@ import { BannerProps } from './Banner';
 
 // Realistically this is going to have a lot more data from Sitecore or XM Cloud, but this is a good example mock data set.
 const defaultData: BannerProps = {
-  uid: '5bff2ebc-f89e-4e21-8ce7-e416c541f2bc',
+  uid: 'a6dcad26-c61f-45f7-9fb7-255318374c88',
   componentName: 'Banner',
   dataSource: '{13B449AF-DF82-4A95-9D01-BCE28211E493}',
-  // "params": {
-
-  // },
   fields: {
     BannerImage: {
       value: {
@@ -26,7 +23,7 @@ const defaultData: BannerProps = {
     },
     BannerCTA: {
       value: {
-        text: 'Test',
+        text: 'Test CTA',
         anchor: '',
         linktype: 'internal',
         class: '',
@@ -34,6 +31,11 @@ const defaultData: BannerProps = {
         querystring: '',
         id: '{15CC85F3-AD65-4568-A0AA-5EAB1AFE3D09}',
         href: '/test',
+      },
+    },
+    BannerVideo: {
+      value: {
+        href: '',
       },
     },
   },
