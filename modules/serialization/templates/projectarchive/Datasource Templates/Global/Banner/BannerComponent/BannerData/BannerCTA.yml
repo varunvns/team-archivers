@@ -1,15 +1,15 @@
 ﻿---
-ID: "3723ffcf-dbfc-4732-8bf6-ec38424444bc"
+ID: "33074cd7-cdb1-4932-9c65-5d7a422de44b"
 Parent: "99153619-3feb-4737-b5ae-b73e0e0381aa"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/Banner/BannerData/BannerDescription
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerComponent/BannerData/BannerCTA
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Rich Text
+  Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 400
 Languages:
 - Language: en
   Versions:
@@ -28,7 +28,7 @@ Languages:
         sitecore\Ishika
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "34b1217c-f2a2-4b5a-98e0-fe9f80cbe0d4"
+      Value: "706e0e75-406e-4a41-b654-8986439bdec7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

@@ -1,21 +1,15 @@
 ﻿---
-ID: "10660a12-ee1e-4425-9a98-e066ade0aeba"
-Parent: "4e72e9a9-4a3a-4f3a-9502-16776f067fdd"
+ID: "f69a8fec-9fb4-4bec-96c8-009031bb5dce"
+Parent: "bbf0ba3c-2e15-49a2-9e0f-883182c7576d"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Card/CardDetail/CardData/CardImage
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordian/Accordian/AccordianData/Content
 SharedFields:
-- ID: "39847666-389d-409b-95bd-f2016f11eed5"
-  Hint: Unversioned
-  Value: 1
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Image
+  Value: Treelist
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 300
-- ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
-  Hint: Shared
-  Value: 1
 Languages:
 - Language: en
   Versions:
@@ -23,22 +17,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T071446Z
+      Value: 20231028T074326Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\Priyal
+        sitecore\Admin
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Priyal
+        sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6ab49ffd-36ca-41cc-bda2-438492ebf4ff"
+      Value: "927bdd0f-bf54-41c2-bf25-c5fc47970dcd"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Priyal
+        sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T073441Z
+      Value: 20231028T074326Z

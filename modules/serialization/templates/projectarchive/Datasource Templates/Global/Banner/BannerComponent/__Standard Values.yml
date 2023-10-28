@@ -2,7 +2,7 @@
 ID: "7a5f3f41-f7b7-404b-8316-9826c25044a2"
 Parent: "51df041c-259e-4b43-b719-acc1efb3a5e6"
 Template: "51df041c-259e-4b43-b719-acc1efb3a5e6"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/Banner/__Standard Values
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerComponent/__Standard Values
 Languages:
 - Language: en
   Versions:
@@ -16,7 +16,7 @@ Languages:
       Value: "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quas saepe nesciunt praesentium illo minima, animi quos voluptatem odit debitis?</p>"
     - ID: "504b6a24-30f7-4d75-96ac-7e4de2c29514"
       Hint: BannerHeading
-      Value: Lorem ipsuum
+      Value: $name
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -24,18 +24,18 @@ Languages:
     - ID: "5449235e-28a1-44ed-a52c-e3731fe9b73c"
       Hint: BannerImage
       Value: |
-        <image mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />
+        <image mediaid="{094AED03-02E7-4868-80CB-19926661FB77}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\Ishika
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1e02b28c-404a-4660-83a3-f8d11c663537"
+      Value: "ff1cb8ba-3906-4ac9-b400-016429058ef0"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Ishika
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T073108Z
+      Value: 20231028T073745Z

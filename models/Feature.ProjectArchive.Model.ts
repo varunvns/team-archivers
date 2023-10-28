@@ -19,6 +19,11 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Accordian.Fields {
     export type Accordian = { 
         fields?: { 
             /**
+            * Represents the Content field (f69a8fec-9fb4-4bec-96c8-009031bb5dce).
+            */
+            Content: Sitecore.Override.ItemEx[];
+
+            /**
             * Represents the Description field (5e58f487-4cb2-4692-ab53-bc372a90dc03).
             */
             Description: Field<string>;
@@ -33,7 +38,7 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Accordian.Fields {
 }
 
 export namespace ProjectArchive.DatasourceTemplates.Global.Banner.Fields {
-    export type Banner = { 
+    export type BannerComponent = { 
         fields?: { 
             /**
             * Represents the BannerCTA field (33074cd7-cdb1-4932-9c65-5d7a422de44b).
@@ -59,9 +64,31 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Banner.Fields {
  }; 
 }
 
+export namespace ProjectArchive.DatasourceTemplates.Global.Banner.Fields {
+    export type BannerFolder = { 
+        fields?: {  
+        }
+ }; 
+}
+
 export namespace ProjectArchive.DatasourceTemplates.Global.Card.Fields {
     export type CardComponent = { 
-        fields?: {  
+        fields?: { 
+            /**
+            * Represents the Cards field (4628f997-16ea-4ef9-96ed-cb4077a70c70).
+            */
+            Cards: Sitecore.Override.ItemEx[];
+
+            /**
+            * Represents the Description field (7d6c7332-e469-4f33-8795-5b7b9b75bf7f).
+            */
+            Description: Field<string>;
+
+            /**
+            * Represents the Heading field (94520ee7-4112-4a22-b0a9-c22d22deee4a).
+            */
+            Heading: Field<string>;
+ 
         }
  }; 
 }

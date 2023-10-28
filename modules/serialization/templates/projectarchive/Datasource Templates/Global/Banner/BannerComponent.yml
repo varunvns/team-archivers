@@ -2,7 +2,7 @@
 ID: "51df041c-259e-4b43-b719-acc1efb3a5e6"
 Parent: "da79a192-3824-4b1c-8dec-dd36520fc38d"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/Banner
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerComponent
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
