@@ -1,0 +1,38 @@
+﻿---
+ID: "f6914d78-91c2-4050-99a9-f745f1c704d3"
+Parent: "1a0b46a6-55a0-4921-b969-a9861c7fd729"
+Template: "1a0b46a6-55a0-4921-b969-a9861c7fd729"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/EnumFolder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {1A0B46A6-55A0-4921-B969-A9861C7FD729}
+    {4D3BEB7A-6147-483F-ADD3-FFC4AE5FBBEC}
+    {9D64BFB2-112C-43E0-9FD4-3F327D8A53A5}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T054242Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Ishika
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Ishika
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "76925494-5b82-42d2-b5c9-25c73099496e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Nilay
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T062356Z
