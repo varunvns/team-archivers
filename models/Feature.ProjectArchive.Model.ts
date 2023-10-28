@@ -100,6 +100,14 @@ export namespace ProjectArchive.DatasourceTemplates.Global.CardListCarousel.Fiel
  }; 
 }
 
+export namespace ProjectArchive.PageTemplates.Client.Fields {
+    export type ClientDetail = 
+            ProjectArchive.PageTemplates.Fields.BasePage & { 
+        fields?: {  
+        }
+ }; 
+}
+
 export namespace ProjectArchive.DatasourceTemplates.Client.Fields {
     export type ClientDetail = 
             ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields.BaseInfo & { 
@@ -134,14 +142,6 @@ export namespace ProjectArchive.DatasourceTemplates.Client.Fields {
             */
             Region?: Sitecore.Override.ItemEx;
  
-        }
- }; 
-}
-
-export namespace ProjectArchive.PageTemplates.Client.Fields {
-    export type ClientDetail = 
-            ProjectArchive.PageTemplates.Fields.BasePage & { 
-        fields?: {  
         }
  }; 
 }
@@ -280,11 +280,6 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Footer.Fields {
             Description: Field<string>;
 
             /**
-            * Represents the LinksTitle field (1f9c3e43-1683-42f8-b00a-0733d561fff8).
-            */
-            LinksTitle: Field<string>;
-
-            /**
             * Represents the Logo field (3becd0bf-c303-42f8-9d81-f3af89aef98b).
             */
             Logo: ImageField;
@@ -339,6 +334,14 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Fields {
  }; 
 }
 
+export namespace ProjectArchive.PageTemplates.Project.Fields {
+    export type ProjectDetail = 
+            ProjectArchive.PageTemplates.Fields.BasePage & { 
+        fields?: {  
+        }
+ }; 
+}
+
 export namespace ProjectArchive.DatasourceTemplates.Project.Fields {
     export type ProjectDetail = 
             ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields.BaseInfo & { 
@@ -378,14 +381,6 @@ export namespace ProjectArchive.DatasourceTemplates.Project.Fields {
             */
             ProjectVideo: LinkField;
  
-        }
- }; 
-}
-
-export namespace ProjectArchive.PageTemplates.Project.Fields {
-    export type ProjectDetail = 
-            ProjectArchive.PageTemplates.Fields.BasePage & { 
-        fields?: {  
         }
  }; 
 }
