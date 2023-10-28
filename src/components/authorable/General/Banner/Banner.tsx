@@ -1,32 +1,52 @@
 // import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
+import { RichText, Text, Link } from '@sitecore-jss/sitecore-jss-nextjs';
 
 // Local
-import RichTextA11yWrapper from 'components/helpers/RichTextA11yWrapper/RichTextA11yWrapper';
+import { ProjectArchive } from 'models/Feature.ProjectArchive.Model';
 
 // Ideally, all this is from generated Typescript code from Sitecore and we're not manually defining types.
-interface Fields {
-  text: Field<string>;
-}
 
-export type BannerProps = {
-  rendering: { componentName: string };
-  params: { [key: string]: string };
-  fields: Fields;
-};
+export type BannerProps =
+  ProjectArchive.DatasourceTemplates.Global.Banner.Fields.BannerComponent & {
+    uid: string;
+    componentName: string;
+    dataSource: string;
+    // params?:;
+  };
 
 const Banner = ({ fields }: BannerProps): JSX.Element => {
   // Fail out if fields aren't present
   if (fields === null || fields === undefined) return <></>;
-
   return (
     <div
-      className="bg-theme-bg border border-b-4 border-b-primary border-black dark:border-gray dark:border-b-primary max-w-lg p-2 rounded"
+      className="min-h-[500px] bg-black relative"
       data-component="authorable/general/Banner"
       data-testid="Banner"
     >
-      <p className="font-bold">Banner</p>
-      <RichTextA11yWrapper data-testid="Banner" field={fields.text} editable />
+      <div
+        style={{ backgroundImage: `url(${fields?.BannerImage?.value?.src})` }}
+        className="absolute w-full h-full opacity-20 bg-center
+              bg-cover bg-no-repeat"
+      ></div>
+      <div className="flex flex-col justify-center items-center h-[500px] text-center text-white z-10 relative">
+        {fields?.BannerHeading && (
+          <Text field={fields?.BannerHeading} tag="p" className=" font-bold text-4xl" />
+        )}
+        {fields?.BannerDescription && (
+          <RichText
+            field={fields?.BannerDescription}
+            className=" leading-[normal] text-base [&_p]:mt-5 px-[20px]"
+          />
+        )}
+        {fields?.BannerCTA && (
+          <Link
+            field={fields?.BannerCTA}
+            className="border border-white rounded-md px-[40px] py-[10px] mt-[30px] hover:bg-white hover:text-black"
+          >
+            {fields?.BannerCTA?.value?.text}
+          </Link>
+        )}
+      </div>
     </div>
   );
 };
