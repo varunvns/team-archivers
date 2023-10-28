@@ -17,6 +17,11 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20231028T073602Z
+    - ID: "4628f997-16ea-4ef9-96ed-cb4077a70c70"
+      Hint: Cards
+      Value: |
+        {B6041C42-E882-43EF-9250-2283DCBE69AA}
+        {7C912B5C-221D-4E3A-9E7B-6CE2267416E2}
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -27,11 +32,11 @@ Languages:
         sitecore\Priyal
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "385f4ea7-9f33-4069-9d7d-baa7e344a8c5"
+      Value: "58984452-879f-4151-9373-fa27fcd4988f"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\devanshi
+        sitecore\Priyal
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T092241Z
+      Value: 20231028T100936Z

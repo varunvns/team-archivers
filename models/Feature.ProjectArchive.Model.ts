@@ -123,7 +123,7 @@ export namespace ProjectArchive.DatasourceTemplates.Client.Fields {
             Email: Field<string>;
 
             /**
-            * Represents the __Standard Values field (75a9e5db-3852-41eb-8fdc-31904248fb92).
+            * Represents the IsClientActive field (75a9e5db-3852-41eb-8fdc-31904248fb92).
             */
             IsClientActive: Field<boolean>;
 
@@ -163,6 +163,29 @@ export namespace ProjectArchive.DatasourceTemplates.Client.Fields {
 
 export namespace ProjectArchive.PageTemplates.Client.Fields {
     export type ClientListing = 
+            ProjectArchive.PageTemplates.Fields.BasePage & { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace ProjectArchive.PageTemplates.Employee.Fields {
+    export type EmployeeDetail = 
+            ProjectArchive.PageTemplates.Fields.BasePage & { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace ProjectArchive.DatasourceTemplates.Employee.Fields {
+    export type EmployeeFolder = { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace ProjectArchive.PageTemplates.Employee.Fields {
+    export type EmployeeListing = 
             ProjectArchive.PageTemplates.Fields.BasePage & { 
         fields?: {  
         }
@@ -228,29 +251,6 @@ export namespace ProjectArchive.DatasourceTemplates.Employee.Fields {
             */
             WorkLocation?: Sitecore.Override.ItemEx;
  
-        }
- }; 
-}
-
-export namespace ProjectArchive.PageTemplates.Employee.Fields {
-    export type EmployeeDetail = 
-            ProjectArchive.PageTemplates.Fields.BasePage & { 
-        fields?: {  
-        }
- }; 
-}
-
-export namespace ProjectArchive.DatasourceTemplates.Employee.Fields {
-    export type EmployeeFolder = { 
-        fields?: {  
-        }
- }; 
-}
-
-export namespace ProjectArchive.PageTemplates.Employee.Fields {
-    export type EmployeeListing = 
-            ProjectArchive.PageTemplates.Fields.BasePage & { 
-        fields?: {  
         }
  }; 
 }
@@ -474,6 +474,11 @@ export namespace ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields 
 export namespace ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields {
     export type BaseInfo = { 
         fields?: { 
+            /**
+            * Represents the BannerImage field (b88e163e-be02-44d6-880d-6c9c182adf34).
+            */
+            BannerImage: ImageField;
+
             /**
             * Represents the Description field (5521ea20-6c42-4aec-ba0b-cea23cee8667).
             */

@@ -1,8 +1,15 @@
 ﻿---
-ID: "ac9576ef-7047-4c35-a301-13e58d0f05bb"
-Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Personal Info
+ID: "55d5f8d3-c85a-4c36-8868-92d6233a10a7"
+Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/EmployeeDetail/Employee Information/IsEmployeeWorking
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Checkbox
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
 Languages:
 - Language: en
   Versions:
@@ -10,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T053849Z
+      Value: 20231028T053850Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,7 +28,7 @@ Languages:
         sitecore\Varun
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b147b6c4-8a61-4132-b799-96d45b3a1a32"
+      Value: "1f10935c-af23-4f81-8771-8c46af1a0134"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

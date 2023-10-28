@@ -2,7 +2,7 @@
 ID: "18effa58-324d-46f2-becc-e977919a5d67"
 Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/EmployeeDetail/Employee Information
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
