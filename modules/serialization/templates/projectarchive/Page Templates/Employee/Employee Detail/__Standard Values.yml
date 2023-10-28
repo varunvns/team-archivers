@@ -8,6 +8,31 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{8667C4C3-0607-49DC-8845-6531F6610067}"
+              p:before="*"
+              s:ds="{6032BC88-F96A-44E5-8725-98538BFDAE31}"
+              s:id="{A476DC90-DACD-42C1-AE92-5EF8105863EC}"
+              s:par=""
+              s:ph="headless-header"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{454F1665-F348-45C1-948A-D5D4ACEF8FF9}"
+              p:after="*[1=2]"
+              s:ds="{9F7DEF8A-E0DF-4189-BD55-CA96EFFA8DC4}"
+              s:id="{FB2CBC21-6578-45F5-B3DD-9F8312C12D5F}"
+              s:par=""
+              s:ph="headless-footer"
+              s:ccb="Clear on publish" />
+          </d>
+        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20231028T065632Z
@@ -21,11 +46,11 @@ Languages:
         sitecore\Varun
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "356bd074-e32a-4b05-951f-5386b43c31db"
+      Value: "511206b7-2fb5-4edb-9db3-3f8997e56835"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Varun
+        sitecore\Nilay
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T065632Z
+      Value: 20231028T112446Z
