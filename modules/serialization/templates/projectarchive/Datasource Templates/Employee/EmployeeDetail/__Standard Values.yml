@@ -1,12 +1,15 @@
 ﻿---
-ID: "b4259b91-4778-4d7f-a52d-22a302afd9f6"
-Parent: "9c39df98-c433-4c02-90fa-6b64d7768512"
-Template: "9c39df98-c433-4c02-90fa-6b64d7768512"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientDetail/__Standard Values
+ID: "c2431ab5-29e3-416a-a7de-9936a51c1679"
+Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
+Template: "96451aac-a053-4548-8e72-6f627ff08f5e"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/EmployeeDetail/__Standard Values
 SharedFields:
+- ID: "796909ef-98c9-4093-8206-07b7c0fd25d5"
+  Hint: Id
+  Value: 1
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 400
 Languages:
 - Language: en
   Versions:
@@ -14,25 +17,25 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T052801Z
+      Value: 20231028T054101Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\Ravi
+        sitecore\Varun
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Ravi
+        sitecore\Varun
     - ID: "65d584b1-9710-4582-a55c-0a89bcecefbb"
       Hint: Thumbnail
       Value: |
-        <image mediaid="{53246F0C-1DC4-42E8-A190-417679F2F1E7}" />
-    - ID: "7d4127df-963c-4806-93ef-197dd902c8c1"
-      Hint: Name
-      Value: $name
+        <image mediaid="{094A150E-FAD0-4C0E-8927-DA7D6DF9FBAB}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "be102bfa-5498-452a-a3c9-cbb67556b2de"
+      Value: "15176273-d257-40d4-ad84-62daf84c0803"
+    - ID: "a0590a2c-767c-4ec0-913c-00e6f50da436"
+      Hint: Department
+      Value: Full Stack
     - ID: "b88e163e-be02-44d6-880d-6c9c182adf34"
       Hint: BannerImage
       Value: |
@@ -41,6 +44,9 @@ Languages:
       Hint: __Updated by
       Value: |
         sitecore\Varun
+    - ID: "d2930811-f8de-409b-8c2b-e514f5e313fa"
+      Hint: JobTitle
+      Value: "{88492BAF-0E1C-4B7C-B507-5B88182AEB33}"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T104530Z
+      Value: 20231028T104751Z

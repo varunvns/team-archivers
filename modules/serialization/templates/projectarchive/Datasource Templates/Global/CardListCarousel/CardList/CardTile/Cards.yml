@@ -1,18 +1,18 @@
 ﻿---
-ID: "530ba405-9e8f-439c-a225-59b27d11b53a"
-Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
+ID: "4628f997-16ea-4ef9-96ed-cb4077a70c70"
+Parent: "14716db5-4a47-4445-8378-1feede06cb22"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectTeamMembers
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/CardListCarousel/CardList/CardTile/Cards
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: "{1EDFA9A5-4D2D-483D-937F-148EF82B76B3}"
+  Value: DataSource=/sitecore/content/Archives/projectarchive/Data/MainData&IncludeTemplatesForSelection=ClientDetail,EmployeeDetail,ProjectDetail
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Treelist
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 300
+  Value: 400
 Languages:
 - Language: en
   Versions:
@@ -20,22 +20,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T053017Z
+      Value: 20231028T075328Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\Ishika
+        sitecore\Priyal
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Ishika
+        sitecore\Priyal
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "898ae58f-6bf3-4de2-bd03-d50a6971417b"
+      Value: "4e857225-74f5-4b11-abb2-6abb8dd09286"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\devanshi
+        sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T085920Z
+      Value: 20231028T104655Z

@@ -3,6 +3,10 @@ ID: "d4f965dc-a2fc-46bb-9d3f-3d444fda2641"
 Parent: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -21,11 +25,11 @@ Languages:
         sitecore\Varun
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e868aaf0-062d-45fd-b941-1bc4b26b1532"
+      Value: "8de988bc-eef8-4e31-b85c-c346d6d5e8f4"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T055354Z
+      Value: 20231028T085246Z
