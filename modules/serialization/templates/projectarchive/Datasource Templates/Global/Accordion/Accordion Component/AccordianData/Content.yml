@@ -1,15 +1,18 @@
 ﻿---
-ID: "448bc5ab-3e1e-4fb4-9614-6205a4ad9813"
+ID: "f69a8fec-9fb4-4bec-96c8-009031bb5dce"
 Parent: "bbf0ba3c-2e15-49a2-9e0f-883182c7576d"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordian/Accordian/AccordianData/Title
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordion/Accordion Component/AccordianData/Content
 SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "{1EDFA9A5-4D2D-483D-937F-148EF82B76B3}"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: Treelist
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -17,7 +20,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T073220Z
+      Value: 20231028T074326Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -28,11 +31,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "768c22d2-7734-4f32-8e21-f30b7f2177b6"
+      Value: "6c605de9-5302-4f84-905f-a6397d947100"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T073232Z
+      Value: 20231028T093325Z

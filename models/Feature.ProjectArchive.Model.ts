@@ -15,8 +15,8 @@ import { ComponentRendering, RouteData, Field, ImageField, FileField, LinkField 
 import { DefaultComponentProps } from '@/lib/component-props';
 
 
-export namespace ProjectArchive.DatasourceTemplates.Global.Accordian.Fields {
-    export type Accordian = { 
+export namespace ProjectArchive.DatasourceTemplates.Global.Accordion.Fields {
+    export type AccordionComponent = { 
         fields?: { 
             /**
             * Represents the Content field (f69a8fec-9fb4-4bec-96c8-009031bb5dce).
@@ -33,6 +33,13 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Accordian.Fields {
             */
             Title: Field<string>;
  
+        }
+ }; 
+}
+
+export namespace ProjectArchive.DatasourceTemplates.Global.Accordion.Fields {
+    export type AccordionFolder = { 
+        fields?: {  
         }
  }; 
 }

@@ -2,7 +2,7 @@
 ID: "5e58f487-4cb2-4692-ab53-bc372a90dc03"
 Parent: "bbf0ba3c-2e15-49a2-9e0f-883182c7576d"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordian/Accordian/AccordianData/Description
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordion/Accordion Component/AccordianData/Description
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
