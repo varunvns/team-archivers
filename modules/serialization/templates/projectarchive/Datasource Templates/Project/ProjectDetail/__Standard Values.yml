@@ -1,0 +1,47 @@
+﻿---
+ID: "304027a6-79fd-4641-8fb4-23d7b2ac54f0"
+Parent: "8391f28b-8ca4-4fed-84f3-9061798308fc"
+Template: "8391f28b-8ca4-4fed-84f3-9061798308fc"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T053251Z
+    - ID: "41632692-d262-4e9d-9146-6d82997378e0"
+      Hint: ProjectImage
+      Value: |
+        <image mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Ishika
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Ishika
+    - ID: "791cf1ca-5984-4779-8583-bb0110f82bf5"
+      Hint: ProjectEndDate
+      Value: 20240105T183000Z
+    - ID: "7a3582f5-4ecc-45cf-9c1d-904a71f384ab"
+      Hint: ProjectStatus
+      Value: Hold
+    - ID: "8cd811a6-06f4-421f-b1b2-28279c6bd429"
+      Hint: ProjectStartDate
+      Value: 20231027T183000Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "057a1d6d-09b7-4e14-97aa-330083544708"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Varun
+    - ID: "be828d4c-e0bd-4100-a2a0-6358dfb1f0a5"
+      Hint: ProjectHighlight
+      Value: "<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi quisquam perspiciatis maxime similique fuga eligendi perferendis. Odit, rem voluptates!</div>"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T063250Z

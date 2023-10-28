@@ -1,0 +1,31 @@
+﻿---
+ID: "c742c374-d91e-40cb-ba0f-0fe472fdf033"
+Parent: "d369a486-0b05-4a69-91d6-109857778d8a"
+Template: "d369a486-0b05-4a69-91d6-109857778d8a"
+Path: /sitecore/templates/Feature/projectarchive/Page Templates/_Base Page/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T052544Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\devanshi
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\devanshi
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1e32b68c-9f10-427e-8c05-e3f87aa6864f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\devanshi
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T052544Z

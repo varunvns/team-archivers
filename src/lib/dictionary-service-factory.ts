@@ -20,7 +20,7 @@ export class DictionaryServiceFactory {
           endpoint: config.graphQLEndpoint,
           apiKey: config.sitecoreApiKey,
           siteName,
-          rootItemId:'{38A278EA-AF27-4CDE-A7A7-2164B4FDCAD1}',
+          rootItemId: '{38A278EA-AF27-4CDE-A7A7-2164B4FDCAD1}',
           /*
             The Dictionary Service needs a root item ID in order to fetch dictionary phrases for the current
             app. If your Sitecore instance only has 1 JSS App, you can specify the root item ID here;
