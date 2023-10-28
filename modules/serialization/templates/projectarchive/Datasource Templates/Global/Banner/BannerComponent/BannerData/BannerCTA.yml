@@ -1,12 +1,15 @@
 ﻿---
-ID: "186f5c27-76ba-4023-80b5-2d3f68434975"
-Parent: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client
+ID: "33074cd7-cdb1-4932-9c65-5d7a422de44b"
+Parent: "99153619-3feb-4737-b5ae-b73e0e0381aa"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerComponent/BannerData/BannerCTA
 SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: General Link
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 100
+  Value: 400
 Languages:
 - Language: en
   Versions:
@@ -14,22 +17,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T052051Z
+      Value: 20231028T072307Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\Ravi
+        sitecore\Ishika
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Ravi
+        sitecore\Ishika
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "336ee0b5-cf15-4d6d-9786-9a596e539f1a"
+      Value: "706e0e75-406e-4a41-b654-8986439bdec7"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Varun
+        sitecore\Ishika
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T085246Z
+      Value: 20231028T072320Z

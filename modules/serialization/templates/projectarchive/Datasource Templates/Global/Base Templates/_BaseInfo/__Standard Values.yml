@@ -1,0 +1,40 @@
+﻿---
+ID: "906c98cc-f551-4a42-a007-c6e2285edbb0"
+Parent: "b69e32fe-41a3-4658-b8f5-e375622800c5"
+Template: "b69e32fe-41a3-4658-b8f5-e375622800c5"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseInfo/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T090214Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\devanshi
+    - ID: "5521ea20-6c42-4aec-ba0b-cea23cee8667"
+      Hint: Description
+      Value: |
+        Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book. It usually begins with:<br />
+        <br />
+        &ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&rdquo;
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\devanshi
+    - ID: "7d4127df-963c-4806-93ef-197dd902c8c1"
+      Hint: Name
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ecb37791-5d4b-43e6-8843-fd3add09ceed"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\devanshi
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T090252Z

@@ -1,12 +1,12 @@
 ﻿---
-ID: "186f5c27-76ba-4023-80b5-2d3f68434975"
-Parent: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client
+ID: "79e34bcb-22a6-483f-a997-10823fb5b3cc"
+Parent: "5ac6c50b-2c63-4e6c-9d54-5b3b0491f838"
+Template: "5ac6c50b-2c63-4e6c-9d54-5b3b0491f838"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectsFolder/__Standard Values
 SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 100
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{8391F28B-8CA4-4FED-84F3-9061798308FC}"
 Languages:
 - Language: en
   Versions:
@@ -14,22 +14,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T052051Z
+      Value: 20231028T085651Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\Ravi
+        sitecore\devanshi
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Ravi
+        sitecore\devanshi
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "336ee0b5-cf15-4d6d-9786-9a596e539f1a"
+      Value: "5e5a5d46-a4d5-4843-af5e-9e45a567d4ba"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T085246Z
+      Value: 20231028T103354Z
