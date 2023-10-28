@@ -66,6 +66,11 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Banner.Fields {
             * Represents the BannerImage field (5449235e-28a1-44ed-a52c-e3731fe9b73c).
             */
             BannerImage: ImageField;
+
+            /**
+            * Represents the BannerVideo field (db8fce0d-870f-4e3f-b273-bbaf054d2574).
+            */
+            BannerVideo: LinkField;
  
         }
  }; 
@@ -96,14 +101,6 @@ export namespace ProjectArchive.DatasourceTemplates.Global.CardListCarousel.Fiel
             */
             Heading: Field<string>;
  
-        }
- }; 
-}
-
-export namespace ProjectArchive.PageTemplates.Client.Fields {
-    export type ClientDetail = 
-            ProjectArchive.PageTemplates.Fields.BasePage & { 
-        fields?: {  
         }
  }; 
 }
@@ -142,6 +139,14 @@ export namespace ProjectArchive.DatasourceTemplates.Client.Fields {
             */
             Region?: Sitecore.Override.ItemEx;
  
+        }
+ }; 
+}
+
+export namespace ProjectArchive.PageTemplates.Client.Fields {
+    export type ClientDetail = 
+            ProjectArchive.PageTemplates.Fields.BasePage & { 
+        fields?: {  
         }
  }; 
 }
@@ -334,14 +339,6 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Fields {
  }; 
 }
 
-export namespace ProjectArchive.PageTemplates.Project.Fields {
-    export type ProjectDetail = 
-            ProjectArchive.PageTemplates.Fields.BasePage & { 
-        fields?: {  
-        }
- }; 
-}
-
 export namespace ProjectArchive.DatasourceTemplates.Project.Fields {
     export type ProjectDetail = 
             ProjectArchive.DatasourceTemplates.Global.BaseTemplates.Fields.BaseInfo & { 
@@ -381,6 +378,14 @@ export namespace ProjectArchive.DatasourceTemplates.Project.Fields {
             */
             ProjectVideo: LinkField;
  
+        }
+ }; 
+}
+
+export namespace ProjectArchive.PageTemplates.Project.Fields {
+    export type ProjectDetail = 
+            ProjectArchive.PageTemplates.Fields.BasePage & { 
+        fields?: {  
         }
  }; 
 }
