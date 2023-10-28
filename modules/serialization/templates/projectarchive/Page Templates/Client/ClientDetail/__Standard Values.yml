@@ -1,8 +1,8 @@
 ﻿---
-ID: "1cc14689-9b15-40c9-81ef-3beb2c4d8ce9"
-Parent: "fd6086f8-c4c1-4920-b88a-0b7dec00f039"
-Template: "fd6086f8-c4c1-4920-b88a-0b7dec00f039"
-Path: /sitecore/templates/Feature/projectarchive/Page Templates/Project/ProjectDetail/__Standard Values
+ID: "5a201186-24ec-46d9-87d0-e25bb85214a0"
+Parent: "f95db117-6c4e-4516-8be6-434c16a8f9c6"
+Template: "f95db117-6c4e-4516-8be6-434c16a8f9c6"
+Path: /sitecore/templates/Feature/projectarchive/Page Templates/Client/ClientDetail/__Standard Values
 Languages:
 - Language: en
   Versions:
@@ -35,22 +35,22 @@ Languages:
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T055639Z
+      Value: 20231028T112256Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\Ishika
+        sitecore\Nilay
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Ishika
+        sitecore\Nilay
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ad64a6c9-c67d-48d2-bb64-5a568e0bdc38"
+      Value: "186be473-b096-44f8-b8ff-b4ca35854cac"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Nilay
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T112454Z
+      Value: 20231028T112438Z
