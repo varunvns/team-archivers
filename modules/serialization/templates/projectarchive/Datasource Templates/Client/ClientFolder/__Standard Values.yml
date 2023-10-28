@@ -1,0 +1,31 @@
+﻿---
+ID: "c4c2e672-0812-4ad0-b5ff-e4e8dbf7fe70"
+Parent: "590d7f80-e935-46d4-8d56-0b97760ba2e0"
+Template: "590d7f80-e935-46d4-8d56-0b97760ba2e0"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientFolder/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T055334Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Ravi
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Ravi
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4662710c-f8f7-4db4-ae7f-9544c4a0ab28"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Ravi
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T055334Z

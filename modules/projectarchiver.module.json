@@ -8,7 +8,7 @@
         "path": "/sitecore/templates/Feature/projectarchive",
         "database": "master"
       }
-    ],   
+    ]   
   },
   "leprechaun": {
       "configuration": {
