@@ -6,71 +6,44 @@ ID: "186f5c27-76ba-4023-80b5-2d3f68434975"
 Parent: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client
-Signature: 7+tal248u0ouTYsW5MYvJrawNbQ4xqhUJaWhof58wMY=
-Modified: 638340750265710969
+Signature: kN80fzXq52v9VMLtBS/1tKdqYRdDN+GqEn2sYHEUm94=
+Modified: 638340807773499629
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates.yml
-ID: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
-Parent: "074e856f-50dc-4a75-8823-bfb195969d84"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global.yml
+ID: "7d68ae39-3d61-4f83-976f-98c0a4afb461"
+Parent: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates
-Signature: yMaG85gwzQKYUPmPoN0uKCh5oeGkGfAmsVqzCA4SI+U=
-Modified: 638340750265710969
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global
+Signature: COQsDhIQ59KSitl3JTXak3QIL7sl15dxChuY9ZmfZrw=
+Modified: 638340807773469290
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates.yml
-ID: "56f2acfa-6978-4f3e-ab29-188f684bea43"
-Parent: "074e856f-50dc-4a75-8823-bfb195969d84"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee.yml
+ID: "d4f965dc-a2fc-46bb-9d3f-3d444fda2641"
+Parent: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/projectarchive/Page Templates
-Signature: j4Oianssm+Nr0SlDw/vRQDy7AD49oGkbmrOwJZBf9x4=
-Modified: 638340750265710969
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee
+Signature: MV4Qc9ywAcd7n4GUy5ZfrFvvlqJIG2JIJnIz3+f7ZWc=
+Modified: 638340807773509878
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Project\ProjectListing.yml
-ID: "6eadb23f-bd98-4856-a03f-c04de7e44633"
-Parent: "427d5f77-e46e-4bc7-abfd-d445e5ac0936"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Page Templates/Project/ProjectListing
-Signature: CohgDpkfOH11ZoUlS9BQcg60Rk4DJt+sJER5B7yKirc=
-Modified: 638340752546023603
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project.yml
+ID: "81645d8e-d8f4-4e1a-aad6-69bf13b29517"
+Parent: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project
+Signature: tvRdsZUecjEjhcYhawCyls6aumjDBDaUYgO+Z2vkIxE=
+Modified: 638340807773529780
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\test\test1.yml
-ID: "8a96817d-f905-45a5-be32-943449d8b157"
-Parent: "12afcadb-99f3-4e97-ae25-b4aedc38e8e6"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/test/test1
-Signature: 3KgBG2jYgAubshpPqRuONtA/MWjxsajMCBjE5H/gwDA=
-Modified: 638340134152427855
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Employee\Employee Listing.yml
-ID: "e16828c4-f994-47a5-9975-150b675b9a0b"
-Parent: "de4846f4-3aeb-470e-a02d-3b9b39bb5023"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Page Templates/Employee/Employee Listing
-Signature: jJDuYy4N2mDxt+FrYHaXukvzBQHUeKnCS1Uyh8oLpa8=
-Modified: 638340752546023603
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Card\CardDetail.yml
-ID: "70131d4c-f9ca-45b3-98de-f7da07f9a797"
-Parent: "7eb2f9e2-9ddb-4949-a9c0-deadf4461f07"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Card/CardDetail
-Signature: GSDygbk7yXtCc8PWWXDxsnuy66dXoOJF/aCnAkbxOtk=
-Modified: 638340752546186601
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\test\__Standard Values.yml
-ID: "30a9f3b5-4cf3-4033-bb6f-0534da85f53a"
-Parent: "12afcadb-99f3-4e97-ae25-b4aedc38e8e6"
-Template: "12afcadb-99f3-4e97-ae25-b4aedc38e8e6"
-Path: /sitecore/templates/Feature/projectarchive/test/__Standard Values
-Signature: N2YJEi3C41xIJkt+9yNdXCwnYIOZM28HFIrWYK1ln8I=
-Modified: 638340134152484136
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Personal Info\Phone.yml
+ID: "2bc218e9-9fbe-46f8-95ab-c631c470aa60"
+Parent: "ac9576ef-7047-4c35-a301-13e58d0f05bb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Personal Info/Phone
+Signature: 2bm34oRgV9HtexaQObOA/r2jDbA6LFJJW7DArmwmG34=
+Modified: 638340750267443090
 ---
 File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\EnumItem\EnumItemDetail.yml
@@ -79,312 +52,6 @@ Parent: "4d3beb7a-6147-483f-add3-ffc4ae5fbbec"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
 Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/EnumItem/EnumItemDetail
 Signature: 5hYPT3A484EATBSe0Hg3QXrnB+RfGO82oqPMv97ifMA=
-Modified: 638340750266973638
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\Banner\BannerData.yml
-ID: "99153619-3feb-4737-b5ae-b73e0e0381aa"
-Parent: "51df041c-259e-4b43-b719-acc1efb3a5e6"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/Banner/BannerData
-Signature: Ty6KmPlQDBBdN1AEew0jw6TGvw3+dRRYiHe2zJ5SNvg=
-Modified: 638340750267755777
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Project\ProjectDetail.yml
-ID: "fd6086f8-c4c1-4920-b88a-0b7dec00f039"
-Parent: "427d5f77-e46e-4bc7-abfd-d445e5ac0936"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Page Templates/Project/ProjectDetail
-Signature: IUHlDpjWQagohg8hAI3vfnQID4Pma4zqtAoTgxOn9fI=
-Modified: 638340752546023603
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\EnumItem\__Standard Values.yml
-ID: "08d020f0-6010-4db0-a73b-bf01fd8aec2c"
-Parent: "4d3beb7a-6147-483f-add3-ffc4ae5fbbec"
-Template: "4d3beb7a-6147-483f-add3-ffc4ae5fbbec"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/EnumItem/__Standard Values
-Signature: 4Ed2AKAvt5ClH4SWBpH6dpkkXGTKiXYtaAAWhOLR6sU=
-Modified: 638340750269021491
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\Banner\__Standard Values.yml
-ID: "7a5f3f41-f7b7-404b-8316-9826c25044a2"
-Parent: "51df041c-259e-4b43-b719-acc1efb3a5e6"
-Template: "51df041c-259e-4b43-b719-acc1efb3a5e6"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/Banner/__Standard Values
-Signature: NTCqmmwcHpo+VLr6AoPypISANzH3IXQbAs9cLH3z1is=
-Modified: 638340752546349781
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseInfo\Data\Description.yml
-ID: "5521ea20-6c42-4aec-ba0b-cea23cee8667"
-Parent: "9e90d947-fef3-4756-9187-10152b5d5348"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseInfo/Data/Description
-Signature: pCtiJLpNALjxIHX6YVooGD4CKpuluBxBuBVeD0kdDsA=
-Modified: 638340750268393402
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate.yml
-ID: "69206250-4fa1-4868-95eb-3d470d2865cf"
-Parent: "85ebfcca-7897-4e7d-ae66-80a7ba78ba27"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate
-Signature: IV3P+1qDDYXg++RCKsfYLNM2bdUlah9tr93qVZXtV/k=
-Modified: 638340750266973638
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData\Description.yml
-ID: "e69bbae6-c1ed-46d8-9723-a75c06cf3e77"
-Parent: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData/Description
-Signature: OEIbX3veJCQSigL6yFqqXLGH3ub5yXINSEBk/eRl9jM=
-Modified: 638340750268543984
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientDetail\PersonalInfo\PhoneNumber.yml
-ID: "949eab63-b9eb-458f-9ccc-7885195e4b89"
-Parent: "82093ff0-4045-4cd6-a971-309eac460d11"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientDetail/PersonalInfo/PhoneNumber
-Signature: 4yMEGEvncUnqHgvMcXrH86/cyTVBBRJ7xnnGvdYTShc=
-Modified: 638340750267130031
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData\LinksTitle.yml
-ID: "1f9c3e43-1683-42f8-b00a-0733d561fff8"
-Parent: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData/LinksTitle
-Signature: bWUORkBXMpG9bePPlS06BLCU8HfQo6GwMfbZbwKyIhI=
-Modified: 638340750268710476
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\Banner\BannerData\BannerCTA.yml
-ID: "33074cd7-cdb1-4932-9c65-5d7a422de44b"
-Parent: "99153619-3feb-4737-b5ae-b73e0e0381aa"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/Banner/BannerData/BannerCTA
-Signature: zEukszqr86T+kYZucq6nM48xyTHHRRugVtUY2vJp6q4=
-Modified: 638340750268393402
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData\Logo.yml
-ID: "3becd0bf-c303-42f8-9d81-f3af89aef98b"
-Parent: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData/Logo
-Signature: zeLRZ3uBZpa4NModT1wEkdVQ6/oxCPdVc3khkXylCA0=
-Modified: 638340750268543984
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\Banner\BannerData\BannerDescription.yml
-ID: "3723ffcf-dbfc-4732-8bf6-ec38424444bc"
-Parent: "99153619-3feb-4737-b5ae-b73e0e0381aa"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/Banner/BannerData/BannerDescription
-Signature: B79+jFccdZey+mdnEDWB/80pFpd8dIioYGXznRflPTc=
-Modified: 638340750268229604
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData\SocialLinks.yml
-ID: "44f22654-0230-4347-8f2f-ac1781322793"
-Parent: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData/SocialLinks
-Signature: xeNJTU1jDTvJ/tAxH/A9c2rSD1kJMlAodM0lrgwyQtE=
-Modified: 638340750268710476
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\Banner\BannerData\BannerHeading.yml
-ID: "504b6a24-30f7-4d75-96ac-7e4de2c29514"
-Parent: "99153619-3feb-4737-b5ae-b73e0e0381aa"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/Banner/BannerData/BannerHeading
-Signature: bcHPj1uwmmbNOGExRtDCMMQRlw8Y9f2RrOwXpX0Vfd4=
-Modified: 638340750268229604
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData\Title.yml
-ID: "4c417e75-4e03-447a-8cfa-1db703264b24"
-Parent: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData/Title
-Signature: kePkE6cCeSyrMx+Pg60bqc4Ny1Ojn5bsMXY6WJT0So8=
-Modified: 638340750268543984
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\Banner\BannerData\BannerImage.yml
-ID: "5449235e-28a1-44ed-a52c-e3731fe9b73c"
-Parent: "99153619-3feb-4737-b5ae-b73e0e0381aa"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/Banner/BannerData/BannerImage
-Signature: b9QtALvga18l1pxMhx6bd1hCWVPgNDytB/K7CWm8DiQ=
-Modified: 638340752545947695
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header\HeaderTemplate\HeaderData\HeaderLinks.yml
-ID: "4194cd85-9e78-44cf-9bf5-e7bad53fca23"
-Parent: "44b1e365-f938-47b3-a0c0-50d97bc1ffb0"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header/HeaderTemplate/HeaderData/HeaderLinks
-Signature: pFW2sGOv5Vc5F4i0+DexpASxtzkU4y2uXA01b53I1TY=
-Modified: 638340750268710476
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header\HeaderTemplate\HeaderData\Logo.yml
-ID: "d4e2c394-91ee-4263-8c28-fbe0bf2ed953"
-Parent: "44b1e365-f938-47b3-a0c0-50d97bc1ffb0"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header/HeaderTemplate/HeaderData/Logo
-Signature: udr28BpzdTqxVmgujE3A6Eca7NJIjyEOKBuFknQBRk4=
-Modified: 638340750268710476
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header\HeaderTemplate\HeaderData\TagLine.yml
-ID: "6b656eb6-43e5-46e1-882d-bbe8834b14f7"
-Parent: "44b1e365-f938-47b3-a0c0-50d97bc1ffb0"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header/HeaderTemplate/HeaderData/TagLine
-Signature: Tok6knK6rixF9KQghrUbGmy0DTTPLD3HcZ1Un+qFrf4=
-Modified: 638340750268710476
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\test.yml
-ID: "12afcadb-99f3-4e97-ae25-b4aedc38e8e6"
-Parent: "074e856f-50dc-4a75-8823-bfb195969d84"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/test
-Signature: Uc6/V5SXu5LqqYAFUp8WWc55w/ibmmxBqMbVScrbkYo=
-Modified: 638340134152324997
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\_Base Page.yml
-ID: "d369a486-0b05-4a69-91d6-109857778d8a"
-Parent: "56f2acfa-6978-4f3e-ab29-188f684bea43"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Page Templates/_Base Page
-Signature: ByF1flwWMgY235Yhla1a51rgEgGEDHuLYiStSBKcQu4=
-Modified: 638340752545967640
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Card\CardDetail\__Standard Values.yml
-ID: "5dd869da-83c7-40c6-90d0-adaeb2eebe57"
-Parent: "70131d4c-f9ca-45b3-98de-f7da07f9a797"
-Template: "70131d4c-f9ca-45b3-98de-f7da07f9a797"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Card/CardDetail/__Standard Values
-Signature: j1M1Xor6MTIE9tBoGtaT1AMSpLzObQ7T5b4l2UhBVQk=
-Modified: 638340752546186601
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseInfo\Data\Name.yml
-ID: "7d4127df-963c-4806-93ef-197dd902c8c1"
-Parent: "9e90d947-fef3-4756-9187-10152b5d5348"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseInfo/Data/Name
-Signature: dKLwbsvEzFT+M2zYW/Y5quvb2cLpqC9wuMCoFirxuCk=
-Modified: 638340750268393402
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Card\CardDetail\CardData\CardCTA.yml
-ID: "643998da-449a-441e-99bb-e9497f5dcdca"
-Parent: "4e72e9a9-4a3a-4f3a-9502-16776f067fdd"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Card/CardDetail/CardData/CardCTA
-Signature: BPMfZpH0jQigZQkmfbcMvkwRNiwmFTqrZBdIyAtW8OM=
-Modified: 638340752546186601
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee.yml
-ID: "d4f965dc-a2fc-46bb-9d3f-3d444fda2641"
-Parent: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee
-Signature: +2PRfhfyQiVDsvJWvUfPNC00P0U+lUuVg0t8LH2ruxw=
-Modified: 638340750265710969
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header.yml
-ID: "474a163d-2316-4a76-a5da-c7cde80f0c7b"
-Parent: "7d68ae39-3d61-4f83-976f-98c0a4afb461"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header
-Signature: qU1l6HTWTU1oc4990sVih+XrLRDH+/YcK+KRzhCKFa8=
-Modified: 638340750266344982
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\SocialLinkItems.yml
-ID: "5495d562-2c49-4efc-9596-6c0c1a1bbc4f"
-Parent: "7d68ae39-3d61-4f83-976f-98c0a4afb461"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/SocialLinkItems
-Signature: xQmZ9YL0mJbVmWrjO0I1/nE0TtvxnnqI/VnBEwa8sCw=
-Modified: 638340750266353402
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\SocialLinksFolder.yml
-ID: "9d64bfb2-112c-43e0-9fd4-3f327d8a53a5"
-Parent: "7d68ae39-3d61-4f83-976f-98c0a4afb461"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/SocialLinksFolder
-Signature: 8aKwXqh0P6wepGn/kVDUBvF1NMrmiKXdINCejgDKT0U=
-Modified: 638340750266353402
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail.yml
-ID: "8391f28b-8ca4-4fed-84f3-9061798308fc"
-Parent: "81645d8e-d8f4-4e1a-aad6-69bf13b29517"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail
-Signature: uXHBx3LbDV5OEvii5TN+tL5rVURj4P5V4niXGIf0lMU=
-Modified: 638340750266453571
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Client\ClientDetail.yml
-ID: "f95db117-6c4e-4516-8be6-434c16a8f9c6"
-Parent: "ed9def7e-4779-4dd6-bafb-40d739f7faf6"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Page Templates/Client/ClientDetail
-Signature: h8/ot+9B280SWltdkTOUEatyl3U3hL21wQQzfx1cibM=
-Modified: 638340752545987633
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\EnumFolder\__Standard Values.yml
-ID: "f6914d78-91c2-4050-99a9-f745f1c704d3"
-Parent: "1a0b46a6-55a0-4921-b969-a9861c7fd729"
-Template: "1a0b46a6-55a0-4921-b969-a9861c7fd729"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/EnumFolder/__Standard Values
-Signature: EDahOfKmSPwxOEnplBzNDQUpi2q4oodlYUM5nwa17wc=
-Modified: 638340750268966185
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\GlobalFolder\__Standard Values.yml
-ID: "af9e550a-9b06-44ce-af71-ba06f01e9921"
-Parent: "2e63e508-900f-4414-9f21-126ddefcda2b"
-Template: "2e63e508-900f-4414-9f21-126ddefcda2b"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/GlobalFolder/__Standard Values
-Signature: KvSyvSLJpHil8CJZXSpz+caCRF9O4EojN5Sj+KO/ENg=
-Modified: 638340750269021491
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header\HeaderTemplate.yml
-ID: "6f291634-e5b8-4555-b049-c1384e2292f8"
-Parent: "474a163d-2316-4a76-a5da-c7cde80f0c7b"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header/HeaderTemplate
-Signature: 6oyaF9y4iXEDlCH34Xtj5KSzpV/Mll38CZAvAAWkjM8=
-Modified: 638340750266973638
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\SocialLinkItems\SocialLinksData.yml
-ID: "834cc45e-d0a9-41d7-a3ed-69b43767599b"
-Parent: "5495d562-2c49-4efc-9596-6c0c1a1bbc4f"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/SocialLinkItems/SocialLinksData
-Signature: GpGuv/+A58avSxwr/4Rdcapz3mb32L09bJcbEASB9NI=
 Modified: 638340750266973638
 ---
 File: |
@@ -397,6 +64,123 @@ Signature: QVmXrJE7SWooWcFlKZa2beYnATeNlNVLehH2Oh7unEM=
 Modified: 638340750269021491
 ---
 File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Project\ProjectDetail.yml
+ID: "fd6086f8-c4c1-4920-b88a-0b7dec00f039"
+Parent: "427d5f77-e46e-4bc7-abfd-d445e5ac0936"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Page Templates/Project/ProjectDetail
+Signature: IUHlDpjWQagohg8hAI3vfnQID4Pma4zqtAoTgxOn9fI=
+Modified: 638340752546023603
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectHighlight.yml
+ID: "be828d4c-e0bd-4100-a2a0-6358dfb1f0a5"
+Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectHighlight
+Signature: 8AuJSnaj1KqwO5NdqT/4v5l2hXdZtzf9NxPr+yEDK+Q=
+Modified: 638340750268073101
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\EnumItem\__Standard Values.yml
+ID: "08d020f0-6010-4db0-a73b-bf01fd8aec2c"
+Parent: "4d3beb7a-6147-483f-add3-ffc4ae5fbbec"
+Template: "4d3beb7a-6147-483f-add3-ffc4ae5fbbec"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/EnumItem/__Standard Values
+Signature: 4Ed2AKAvt5ClH4SWBpH6dpkkXGTKiXYtaAAWhOLR6sU=
+Modified: 638340750269021491
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Data\Clients.yml
+ID: "07fb9bf2-8a66-433b-94ed-b70688d70f3c"
+Parent: "f16c7a41-a237-4ea6-a01b-fdde653f132f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Data/Clients
+Signature: 467E+HnR1F7YdHEd5Ioc5JXrNth5MOUiIyzc17P843o=
+Modified: 638340750267599572
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectVideo.yml
+ID: "4732a2b8-b4b2-46b2-8071-812855eaa9d4"
+Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectVideo
+Signature: QORHVFR2dCL+LiQqsc4IV/Gfz2NhXl0+90P5lKIOIBQ=
+Modified: 638340750268229604
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate.yml
+ID: "69206250-4fa1-4868-95eb-3d470d2865cf"
+Parent: "85ebfcca-7897-4e7d-ae66-80a7ba78ba27"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate
+Signature: IV3P+1qDDYXg++RCKsfYLNM2bdUlah9tr93qVZXtV/k=
+Modified: 638340750266973638
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Data\Projects.yml
+ID: "d11ff85a-c2b8-4777-8ff7-9f5ea0e8b936"
+Parent: "f16c7a41-a237-4ea6-a01b-fdde653f132f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Data/Projects
+Signature: KIfXZlty2o/kaBBQsa8hCbIcNde+urMFF9I7Dk9H1KM=
+Modified: 638340750267599572
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\GlobalFolder\__Standard Values.yml
+ID: "af9e550a-9b06-44ce-af71-ba06f01e9921"
+Parent: "2e63e508-900f-4414-9f21-126ddefcda2b"
+Template: "2e63e508-900f-4414-9f21-126ddefcda2b"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/GlobalFolder/__Standard Values
+Signature: KvSyvSLJpHil8CJZXSpz+caCRF9O4EojN5Sj+KO/ENg=
+Modified: 638340750269021491
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Data\Skills.yml
+ID: "f6a0d2b4-74f2-4cc0-947d-b31ce7e92df2"
+Parent: "f16c7a41-a237-4ea6-a01b-fdde653f132f"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Data/Skills
+Signature: hUFTYwe9aLbgoUebtVni2M87FAutV+nAdDEMt3Y3Jrc=
+Modified: 638340750267755777
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header\HeaderTemplate.yml
+ID: "6f291634-e5b8-4555-b049-c1384e2292f8"
+Parent: "474a163d-2316-4a76-a5da-c7cde80f0c7b"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header/HeaderTemplate
+Signature: 6oyaF9y4iXEDlCH34Xtj5KSzpV/Mll38CZAvAAWkjM8=
+Modified: 638340750266973638
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information\Department.yml
+ID: "a0590a2c-767c-4ec0-913c-00e6f50da436"
+Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information/Department
+Signature: 3q0nJCGCI9dpEI9/nDF9is7d9bgJ5dPlzUHztLM0Z0I=
+Modified: 638340750267443090
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\SocialLinkItems\SocialLinksData.yml
+ID: "834cc45e-d0a9-41d7-a3ed-69b43767599b"
+Parent: "5495d562-2c49-4efc-9596-6c0c1a1bbc4f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/SocialLinkItems/SocialLinksData
+Signature: GpGuv/+A58avSxwr/4Rdcapz3mb32L09bJcbEASB9NI=
+Modified: 638340750266973638
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information\Id.yml
+ID: "796909ef-98c9-4093-8206-07b7c0fd25d5"
+Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information/Id
+Signature: 10YXUUuAm5Kg83y8v/Yjlvkz5wGG1iKaKxMFHVhfj5k=
+Modified: 638340750267443090
+---
+File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\SocialLinksFolder\__Standard Values.yml
 ID: "bd0b62e4-f233-4a2b-8939-ff7e3d4c8502"
 Parent: "9d64bfb2-112c-43e0-9fd4-3f327d8a53a5"
@@ -404,6 +188,15 @@ Template: "9d64bfb2-112c-43e0-9fd4-3f327d8a53a5"
 Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/SocialLinksFolder/__Standard Values
 Signature: F0HNVxN8sUOpmLBCtJHxoTZVm69+SpNRz99OgCkIfQI=
 Modified: 638340750269177984
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information\IsEmployeeWorking.yml
+ID: "55d5f8d3-c85a-4c36-8868-92d6233a10a7"
+Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information/IsEmployeeWorking
+Signature: PC43FtKu0DBwWcyTIuHAKx0Xve+xgVkwV6lAMcvkwzs=
+Modified: 638340807773739702
 ---
 File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection.yml
@@ -415,13 +208,49 @@ Signature: ep41SylQAcfTuqdntBalR7PgbzsNgBCo+t1LWzWltwQ=
 Modified: 638340750267130031
 ---
 File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information\JobTitle.yml
+ID: "d2930811-f8de-409b-8c2b-e514f5e313fa"
+Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information/JobTitle
+Signature: S1tl//CtHnOa6HRxEzsAwngoW5ENkiuR5KKKYZt7orU=
+Modified: 638340750267443090
+---
+File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\__Standard Values.yml
 ID: "304027a6-79fd-4641-8fb4-23d7b2ac54f0"
 Parent: "8391f28b-8ca4-4fed-84f3-9061798308fc"
 Template: "8391f28b-8ca4-4fed-84f3-9061798308fc"
 Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/__Standard Values
-Signature: MXXnL9B0GTztFW6f2kE/l3IkhpDnRcvyfkFyZA6W7LI=
-Modified: 638340750269177984
+Signature: 5nccdtp33FMN9mW1tA4C1bP6Npce2T2I6vi+Rjs20Q0=
+Modified: 638340807773599684
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information\JoinningDate.yml
+ID: "8f977454-858b-4e76-95e7-ec0691435b13"
+Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information/JoinningDate
+Signature: gB9r3PR5Ex6p8NlT2lGei0g6RCuY2Mc0mmCA1a2HPGc=
+Modified: 638340750267599572
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectsFolder\__Standard Values.yml
+ID: "79e34bcb-22a6-483f-a997-10823fb5b3cc"
+Parent: "5ac6c50b-2c63-4e6c-9d54-5b3b0491f838"
+Template: "5ac6c50b-2c63-4e6c-9d54-5b3b0491f838"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectsFolder/__Standard Values
+Signature: qfZRoU8PyB0Pboa1VlUxyTZfa1WbFs2CSJ1zaf39rSk=
+Modified: 638340807773809817
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information\WorkLocation.yml
+ID: "8f1675ff-8286-4930-bd3d-60dd62dbba21"
+Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information/WorkLocation
+Signature: yXf4ZCWsYyDyoZEb+T6Py+Kq/ujwHeYkHPavaJZoeC4=
+Modified: 638340750267599572
 ---
 File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Client\ClientListing\Client.yml
@@ -433,6 +262,15 @@ Signature: Cin1QbLJK6Wqtg6llgs930ZNTUd1bloZtK0Uc6P4FNM=
 Modified: 638340750267130031
 ---
 File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Personal Info\Email.yml
+ID: "047f1529-99f3-46d2-95ad-63b66670cf7f"
+Parent: "ac9576ef-7047-4c35-a301-13e58d0f05bb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Personal Info/Email
+Signature: nkj24I2D4RWh03FgremFil5MJoaSdDJ7a3d+TPRrA/4=
+Modified: 638340750267443090
+---
+File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Employee\Employee Detail\__Standard Values.yml
 ID: "60c6ae5f-ed15-4293-ae86-2a91da40a2ee"
 Parent: "826018f7-ea76-4f76-9e7b-d0bec6c4bf22"
@@ -440,6 +278,15 @@ Template: "826018f7-ea76-4f76-9e7b-d0bec6c4bf22"
 Path: /sitecore/templates/Feature/projectarchive/Page Templates/Employee/Employee Detail/__Standard Values
 Signature: kuRLB6283EgLy+k77O33cyyINkqHMjzgCJjLrkg0OZw=
 Modified: 638340750269177984
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Accordian\Accordian\AccordianData.yml
+ID: "bbf0ba3c-2e15-49a2-9e0f-883182c7576d"
+Parent: "e4881e60-3d19-44c2-b8f1-b62e6de6920e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordian/Accordian/AccordianData
+Signature: 3hmBsnldH2hra/4CV9resv/JZx4aJl8G9vNNzaHimWc=
+Modified: 638340752545887615
 ---
 File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Employee\Employee Listing\__Standard Values.yml
@@ -451,6 +298,15 @@ Signature: 83JUO7hhiuLjCOKUZ1TZnUvZTztjjmugM9LQAXILfNs=
 Modified: 638340750269177984
 ---
 File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\BannerComponent\BannerData.yml
+ID: "99153619-3feb-4737-b5ae-b73e0e0381aa"
+Parent: "51df041c-259e-4b43-b719-acc1efb3a5e6"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerComponent/BannerData
+Signature: Ty6KmPlQDBBdN1AEew0jw6TGvw3+dRRYiHe2zJ5SNvg=
+Modified: 638340797924668555
+---
+File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Project\ProjectDetail\__Standard Values.yml
 ID: "1cc14689-9b15-40c9-81ef-3beb2c4d8ce9"
 Parent: "fd6086f8-c4c1-4920-b88a-0b7dec00f039"
@@ -458,6 +314,15 @@ Template: "fd6086f8-c4c1-4920-b88a-0b7dec00f039"
 Path: /sitecore/templates/Feature/projectarchive/Page Templates/Project/ProjectDetail/__Standard Values
 Signature: Dya/CDY2lasxVncyV8nGpGhii0VKgAKhxuesSWpjPis=
 Modified: 638340750269177984
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\BannerComponent\__Standard Values.yml
+ID: "7a5f3f41-f7b7-404b-8316-9826c25044a2"
+Parent: "51df041c-259e-4b43-b719-acc1efb3a5e6"
+Template: "51df041c-259e-4b43-b719-acc1efb3a5e6"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerComponent/__Standard Values
+Signature: UyKqVJIVElTryk5rsBC3D5Vgx0kXzY3fXQ8RrDeihGA=
+Modified: 638340797925002038
 ---
 File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Project\ProjectListing\__Standard Values.yml
@@ -469,6 +334,15 @@ Signature: nINfXNuMAyKOYzkwxqrHTOXL9qzwVEojnLTmX3wfIyg=
 Modified: 638340750269346416
 ---
 File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\BannerFolder\__Standard Values.yml
+ID: "0488403c-e03f-41d9-ad5a-b981330f87b3"
+Parent: "64f6791f-177c-4c7e-a3ec-4b0aeeec5e73"
+Template: "64f6791f-177c-4c7e-a3ec-4b0aeeec5e73"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerFolder/__Standard Values
+Signature: CAQMS4rEWe9yWgFrkI4u/O+Tc6GfagaU6pNz0CXy60U=
+Modified: 638340797925107382
+---
+File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientDetail\Data\ClientLogo.yml
 ID: "096430ce-8631-443e-92ce-844c9b5138fd"
 Parent: "bfc151f3-9e0a-4706-bf84-f6c93ce8093f"
@@ -478,6 +352,15 @@ Signature: ETF26Fw/1LQ8MVYscy2w97yU4Wmd7lg9roPxsld/QTM=
 Modified: 638340750267287797
 ---
 File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseCard\Data.yml
+ID: "1b923171-57f0-454e-a931-9d6cd8a5cec9"
+Parent: "4b841f20-10d0-4cff-a61e-1e2d980f274b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseCard/Data
+Signature: NdPchqKhNW+V7oI5q++bvEWQYwljbOEkdkKHtZH/WXA=
+Modified: 638340819861524159
+---
+File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientDetail\Data\IsClientActive.yml
 ID: "75a9e5db-3852-41eb-8fdc-31904248fb92"
 Parent: "bfc151f3-9e0a-4706-bf84-f6c93ce8093f"
@@ -485,6 +368,15 @@ Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientDetail/Data/IsClientActive
 Signature: PmxSq0f+xlzFwi2NXCOPEBQsihJorYZkPeANniWcSLY=
 Modified: 638340750267387930
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseCard\__Standard Values.yml
+ID: "c21c8cf1-2b44-44f2-a63e-d6547497bb9a"
+Parent: "4b841f20-10d0-4cff-a61e-1e2d980f274b"
+Template: "4b841f20-10d0-4cff-a61e-1e2d980f274b"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseCard/__Standard Values
+Signature: ZSNt/lu2YGinHOMlEeTbMeo9jpT1vYoPFZ4fIW4TrrQ=
+Modified: 638340819862332084
 ---
 File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientDetail\Data\Projects.yml
@@ -514,373 +406,175 @@ Signature: K6hW2GYVnQBNrWIFSinMSc9mN9V9k7W2ArnhK7tzf8M=
 Modified: 638340750267130031
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Data\Clients.yml
-ID: "07fb9bf2-8a66-433b-94ed-b70688d70f3c"
-Parent: "f16c7a41-a237-4ea6-a01b-fdde653f132f"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientDetail\PersonalInfo\PhoneNumber.yml
+ID: "949eab63-b9eb-458f-9ccc-7885195e4b89"
+Parent: "82093ff0-4045-4cd6-a971-309eac460d11"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Data/Clients
-Signature: 467E+HnR1F7YdHEd5Ioc5JXrNth5MOUiIyzc17P843o=
-Modified: 638340750267599572
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientDetail/PersonalInfo/PhoneNumber
+Signature: 4yMEGEvncUnqHgvMcXrH86/cyTVBBRJ7xnnGvdYTShc=
+Modified: 638340750267130031
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Data\Projects.yml
-ID: "d11ff85a-c2b8-4777-8ff7-9f5ea0e8b936"
-Parent: "f16c7a41-a237-4ea6-a01b-fdde653f132f"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData\Description.yml
+ID: "e69bbae6-c1ed-46d8-9723-a75c06cf3e77"
+Parent: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Data/Projects
-Signature: KIfXZlty2o/kaBBQsa8hCbIcNde+urMFF9I7Dk9H1KM=
-Modified: 638340750267599572
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData/Description
+Signature: OEIbX3veJCQSigL6yFqqXLGH3ub5yXINSEBk/eRl9jM=
+Modified: 638340750268543984
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Data\Skills.yml
-ID: "f6a0d2b4-74f2-4cc0-947d-b31ce7e92df2"
-Parent: "f16c7a41-a237-4ea6-a01b-fdde653f132f"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData\LinksTitle.yml
+ID: "1f9c3e43-1683-42f8-b00a-0733d561fff8"
+Parent: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Data/Skills
-Signature: hUFTYwe9aLbgoUebtVni2M87FAutV+nAdDEMt3Y3Jrc=
-Modified: 638340750267755777
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData/LinksTitle
+Signature: bWUORkBXMpG9bePPlS06BLCU8HfQo6GwMfbZbwKyIhI=
+Modified: 638340750268710476
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information\Department.yml
-ID: "a0590a2c-767c-4ec0-913c-00e6f50da436"
-Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData\Logo.yml
+ID: "3becd0bf-c303-42f8-9d81-f3af89aef98b"
+Parent: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information/Department
-Signature: 3q0nJCGCI9dpEI9/nDF9is7d9bgJ5dPlzUHztLM0Z0I=
-Modified: 638340750267443090
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData/Logo
+Signature: zeLRZ3uBZpa4NModT1wEkdVQ6/oxCPdVc3khkXylCA0=
+Modified: 638340750268543984
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information\Id.yml
-ID: "796909ef-98c9-4093-8206-07b7c0fd25d5"
-Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData\SocialLinks.yml
+ID: "44f22654-0230-4347-8f2f-ac1781322793"
+Parent: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information/Id
-Signature: 10YXUUuAm5Kg83y8v/Yjlvkz5wGG1iKaKxMFHVhfj5k=
-Modified: 638340750267443090
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData/SocialLinks
+Signature: xeNJTU1jDTvJ/tAxH/A9c2rSD1kJMlAodM0lrgwyQtE=
+Modified: 638340750268710476
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information\JobTitle.yml
-ID: "d2930811-f8de-409b-8c2b-e514f5e313fa"
-Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData\Title.yml
+ID: "4c417e75-4e03-447a-8cfa-1db703264b24"
+Parent: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information/JobTitle
-Signature: S1tl//CtHnOa6HRxEzsAwngoW5ENkiuR5KKKYZt7orU=
-Modified: 638340750267443090
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData/Title
+Signature: kePkE6cCeSyrMx+Pg60bqc4Ny1Ojn5bsMXY6WJT0So8=
+Modified: 638340750268543984
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information\JoinningDate.yml
-ID: "8f977454-858b-4e76-95e7-ec0691435b13"
-Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header\HeaderTemplate\HeaderData\HeaderLinks.yml
+ID: "4194cd85-9e78-44cf-9bf5-e7bad53fca23"
+Parent: "44b1e365-f938-47b3-a0c0-50d97bc1ffb0"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information/JoinningDate
-Signature: gB9r3PR5Ex6p8NlT2lGei0g6RCuY2Mc0mmCA1a2HPGc=
-Modified: 638340750267599572
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header/HeaderTemplate/HeaderData/HeaderLinks
+Signature: pFW2sGOv5Vc5F4i0+DexpASxtzkU4y2uXA01b53I1TY=
+Modified: 638340750268710476
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information\status.yml
-ID: "55d5f8d3-c85a-4c36-8868-92d6233a10a7"
-Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header\HeaderTemplate\HeaderData\Logo.yml
+ID: "d4e2c394-91ee-4263-8c28-fbe0bf2ed953"
+Parent: "44b1e365-f938-47b3-a0c0-50d97bc1ffb0"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information/status
-Signature: PC43FtKu0DBwWcyTIuHAKx0Xve+xgVkwV6lAMcvkwzs=
-Modified: 638340750267599572
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header/HeaderTemplate/HeaderData/Logo
+Signature: udr28BpzdTqxVmgujE3A6Eca7NJIjyEOKBuFknQBRk4=
+Modified: 638340750268710476
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information\WorkLocation.yml
-ID: "8f1675ff-8286-4930-bd3d-60dd62dbba21"
-Parent: "18effa58-324d-46f2-becc-e977919a5d67"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header\HeaderTemplate\HeaderData\TagLine.yml
+ID: "6b656eb6-43e5-46e1-882d-bbe8834b14f7"
+Parent: "44b1e365-f938-47b3-a0c0-50d97bc1ffb0"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information/WorkLocation
-Signature: yXf4ZCWsYyDyoZEb+T6Py+Kq/ujwHeYkHPavaJZoeC4=
-Modified: 638340750267599572
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header/HeaderTemplate/HeaderData/TagLine
+Signature: Tok6knK6rixF9KQghrUbGmy0DTTPLD3HcZ1Un+qFrf4=
+Modified: 638340750268710476
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive.yml
-ID: "074e856f-50dc-4a75-8823-bfb195969d84"
-Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates.yml
+ID: "56f2acfa-6978-4f3e-ab29-188f684bea43"
+Parent: "074e856f-50dc-4a75-8823-bfb195969d84"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/projectarchive
-Signature: I9GQ260i6ATXc+s0JA1TFoILFJL7x9JesEj8muNODvU=
-Modified: 638340134152166933
+Path: /sitecore/templates/Feature/projectarchive/Page Templates
+Signature: j4Oianssm+Nr0SlDw/vRQDy7AD49oGkbmrOwJZBf9x4=
+Modified: 638340750265710969
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Personal Info\Email.yml
-ID: "047f1529-99f3-46d2-95ad-63b66670cf7f"
-Parent: "ac9576ef-7047-4c35-a301-13e58d0f05bb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Personal Info/Email
-Signature: nkj24I2D4RWh03FgremFil5MJoaSdDJ7a3d+TPRrA/4=
-Modified: 638340750267443090
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Client.yml
+ID: "ed9def7e-4779-4dd6-bafb-40d739f7faf6"
+Parent: "56f2acfa-6978-4f3e-ab29-188f684bea43"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/projectarchive/Page Templates/Client
+Signature: f+8gC/w4USrMG6OzRApraGHLvP52FT4YSb5U2HuE+Q0=
+Modified: 638340750265871587
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\_Base Page\__Standard Values.yml
-ID: "c742c374-d91e-40cb-ba0f-0fe472fdf033"
-Parent: "d369a486-0b05-4a69-91d6-109857778d8a"
-Template: "d369a486-0b05-4a69-91d6-109857778d8a"
-Path: /sitecore/templates/Feature/projectarchive/Page Templates/_Base Page/__Standard Values
-Signature: HIdyQ9qhrkTFoW8Ve/KmYrWVLXnXd+kL9aYGma1XNyM=
-Modified: 638340750268860638
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Personal Info\Phone.yml
-ID: "2bc218e9-9fbe-46f8-95ab-c631c470aa60"
-Parent: "ac9576ef-7047-4c35-a301-13e58d0f05bb"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Personal Info/Phone
-Signature: 2bm34oRgV9HtexaQObOA/r2jDbA6LFJJW7DArmwmG34=
-Modified: 638340750267443090
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\test\test1\test2.yml
-ID: "20ec123d-d2a5-4822-a5c3-0f4aa164b39d"
-Parent: "8a96817d-f905-45a5-be32-943449d8b157"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/test/test1/test2
-Signature: HMq9ogHsGdhl+5hIuop41hVpTdH74669r9OU34Ihn2c=
-Modified: 638340134152448510
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Accordian\Accordian\AccordianData.yml
-ID: "bbf0ba3c-2e15-49a2-9e0f-883182c7576d"
-Parent: "e4881e60-3d19-44c2-b8f1-b62e6de6920e"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordian/Accordian/AccordianData
-Signature: 3hmBsnldH2hra/4CV9resv/JZx4aJl8G9vNNzaHimWc=
-Modified: 638340752545887615
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientDetail\Data.yml
-ID: "bfc151f3-9e0a-4706-bf84-f6c93ce8093f"
-Parent: "9c39df98-c433-4c02-90fa-6b64d7768512"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientDetail/Data
-Signature: 2/22w90kFVr+E7WIpFmE/DUROYGXmx7ivTfBZkGHrjM=
-Modified: 638340750266660394
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\EnumItem\EnumItemDetail\Title.yml
-ID: "581d38a5-c505-4c2c-8315-2c171b20b0bc"
-Parent: "aa71dacf-66cd-4775-9659-943f401a111a"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/EnumItem/EnumItemDetail/Title
-Signature: V3G2Py6wCu5Kj5cnOLWy/iNwqgSlBexqQANoluHdI1c=
-Modified: 638340750267755777
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientDetail\PersonalInfo.yml
-ID: "82093ff0-4045-4cd6-a971-309eac460d11"
-Parent: "9c39df98-c433-4c02-90fa-6b64d7768512"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientDetail/PersonalInfo
-Signature: Azul0rb9SGCMLJ5IUQTAb6dKoJ32u7p99MAz0iR2z60=
-Modified: 638340750266660394
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData.yml
-ID: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
-Parent: "69206250-4fa1-4868-95eb-3d470d2865cf"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData
-Signature: kkWXi9xkwFcMGtoOKaboln2xNik8BTTQEoRbmd4a3Ww=
-Modified: 638340750267912181
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientDetail\__Standard Values.yml
-ID: "b4259b91-4778-4d7f-a52d-22a302afd9f6"
-Parent: "9c39df98-c433-4c02-90fa-6b64d7768512"
-Template: "9c39df98-c433-4c02-90fa-6b64d7768512"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientDetail/__Standard Values
-Signature: EevcGxKdnKx1jZbDIR8fI0HXnQkakQVLg3624kXIkXo=
-Modified: 638340750268860638
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\__Standard Values.yml
-ID: "d8d0eecf-6478-49dd-9a0c-c4e8b7ba8594"
-Parent: "69206250-4fa1-4868-95eb-3d470d2865cf"
-Template: "69206250-4fa1-4868-95eb-3d470d2865cf"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/__Standard Values
-Signature: 42m04WMnZjVkzNqDor+wosKhuuQby6BW1S5sbXv6l0g=
-Modified: 638340750269436683
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientFolder\__Standard Values.yml
-ID: "c4c2e672-0812-4ad0-b5ff-e4e8dbf7fe70"
-Parent: "590d7f80-e935-46d4-8d56-0b97760ba2e0"
-Template: "590d7f80-e935-46d4-8d56-0b97760ba2e0"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientFolder/__Standard Values
-Signature: U5dWRuymkAZFPJdSqNbcp2cpbsolXKUmumZnP6wuamw=
-Modified: 638340750268860638
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header\HeaderTemplate\HeaderData.yml
-ID: "44b1e365-f938-47b3-a0c0-50d97bc1ffb0"
-Parent: "6f291634-e5b8-4555-b049-c1384e2292f8"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header/HeaderTemplate/HeaderData
-Signature: qo350KkWTb6fGOmwcv+iW/ZdobFFk/qkV6fQMu+y9uE=
-Modified: 638340750267957505
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Data.yml
-ID: "f16c7a41-a237-4ea6-a01b-fdde653f132f"
-Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Data
-Signature: TebeSBN0YR8Gr29sMvtjuZK8H1uXTxE7QteA9xXtgAg=
-Modified: 638340750266660394
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header\HeaderTemplate\__Standard Values.yml
-ID: "0f337653-2b79-43a9-ae78-dd0a6ee501bf"
-Parent: "6f291634-e5b8-4555-b049-c1384e2292f8"
-Template: "6f291634-e5b8-4555-b049-c1384e2292f8"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header/HeaderTemplate/__Standard Values
-Signature: pg0u/utBktYNAH/4zwd7PubBrILQxKZQlYwmcwoZBE8=
-Modified: 638340750269436683
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information.yml
-ID: "18effa58-324d-46f2-becc-e977919a5d67"
-Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information
-Signature: x5oUl74pm4l5woewOTbCMTV4KrCmeQ3c/qP18+pQ0yQ=
-Modified: 638340750266660394
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\SocialLinkItems\SocialLinksData\Icon.yml
-ID: "25521119-4bf6-46d2-b50d-e8e35b57496d"
-Parent: "834cc45e-d0a9-41d7-a3ed-69b43767599b"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/SocialLinkItems/SocialLinksData/Icon
-Signature: sfhJ/a0TSlKZcA12n2BMHUDga+9FFsaMUJ2nmqW9Hco=
-Modified: 638340750268027975
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Personal Info.yml
-ID: "ac9576ef-7047-4c35-a301-13e58d0f05bb"
-Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Personal Info
-Signature: j/a7ZlsuCpJbSNzrLaxXS8CoXTS66QSLV2JFOirOaMk=
-Modified: 638340750266660394
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\SocialLinkItems\SocialLinksData\Link.yml
-ID: "90247700-30cf-4e83-8cca-89d92eaf4283"
-Parent: "834cc45e-d0a9-41d7-a3ed-69b43767599b"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/SocialLinkItems/SocialLinksData/Link
-Signature: HbZWrdIwEqy/nDTiIyroNrRO7k6MJYqWBBrSNOt6XY4=
-Modified: 638340750268073101
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\__Standard Values.yml
-ID: "c2431ab5-29e3-416a-a7de-9936a51c1679"
-Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
-Template: "96451aac-a053-4548-8e72-6f627ff08f5e"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/__Standard Values
-Signature: iLMTDQw1F7mDD/1wjpZ5/T1ZtgPHyAOShDPX4GtVhTc=
-Modified: 638340750268860638
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectEndDate.yml
-ID: "791cf1ca-5984-4779-8583-bb0110f82bf5"
-Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectEndDate
-Signature: m5mCvaJ3BAQegbYWA6wowS21TyCCrN3LaRmH3zD1mpA=
-Modified: 638340750268229604
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Folder\__Standard Values.yml
-ID: "47290e0b-8708-47fd-b65d-28d57c8f35e0"
-Parent: "1ef27721-f674-497c-b437-423887d275b2"
-Template: "1ef27721-f674-497c-b437-423887d275b2"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Folder/__Standard Values
-Signature: 4RmAlB/qRDj6h2Ftyuxeo/wx9xYOdS55CaXHd4A6p08=
-Modified: 638340750268966185
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectHighlight.yml
-ID: "be828d4c-e0bd-4100-a2a0-6358dfb1f0a5"
-Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectHighlight
-Signature: 8AuJSnaj1KqwO5NdqT/4v5l2hXdZtzf9NxPr+yEDK+Q=
-Modified: 638340750268073101
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Accordian\Accordian.yml
-ID: "e4881e60-3d19-44c2-b8f1-b62e6de6920e"
-Parent: "e0239341-7b87-4ed7-a9e0-5cd771d7ea2b"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\SocialLinkItems.yml
+ID: "5495d562-2c49-4efc-9596-6c0c1a1bbc4f"
+Parent: "7d68ae39-3d61-4f83-976f-98c0a4afb461"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordian/Accordian
-Signature: xfjBu3b5RFKIAi0yVZXEIKTwqaE5lXIk8xQ6ejlTWLI=
-Modified: 638340750266817862
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/SocialLinkItems
+Signature: xQmZ9YL0mJbVmWrjO0I1/nE0TtvxnnqI/VnBEwa8sCw=
+Modified: 638340750266353402
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectImage.yml
-ID: "41632692-d262-4e9d-9146-6d82997378e0"
-Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectImage
-Signature: FBWZXUxkpLsgj6WSoc22LbVzaZ+M7vYur/cpmwnTYoA=
-Modified: 638340750268229604
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\Banner.yml
-ID: "51df041c-259e-4b43-b719-acc1efb3a5e6"
-Parent: "da79a192-3824-4b1c-8dec-dd36520fc38d"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\SocialLinksFolder.yml
+ID: "9d64bfb2-112c-43e0-9fd4-3f327d8a53a5"
+Parent: "7d68ae39-3d61-4f83-976f-98c0a4afb461"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/Banner
-Signature: dgVUR52ESkcbGK3zbOlAQ6JqiYUIQqU0HsKyoaLHAj0=
-Modified: 638340750266817862
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/SocialLinksFolder
+Signature: 8aKwXqh0P6wepGn/kVDUBvF1NMrmiKXdINCejgDKT0U=
+Modified: 638340750266353402
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectStartDate.yml
-ID: "8cd811a6-06f4-421f-b1b2-28279c6bd429"
-Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectStartDate
-Signature: 52v2GqGwgC9CDQhYR6+5nPyUSVpszRhB1b2knD210/Q=
-Modified: 638340750268229604
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseInfo.yml
-ID: "b69e32fe-41a3-4658-b8f5-e375622800c5"
-Parent: "12e00961-175f-443b-834d-adf8affbd8c1"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail.yml
+ID: "8391f28b-8ca4-4fed-84f3-9061798308fc"
+Parent: "81645d8e-d8f4-4e1a-aad6-69bf13b29517"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseInfo
-Signature: e6FbkqwSdMsU1z57BPTJEBWsIXNODSfsDZbIKEsqY48=
-Modified: 638340750266918088
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail
+Signature: uXHBx3LbDV5OEvii5TN+tL5rVURj4P5V4niXGIf0lMU=
+Modified: 638340750266453571
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectStatus.yml
-ID: "7a3582f5-4ecc-45cf-9c1d-904a71f384ab"
-Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectStatus
-Signature: +zum6rn5JlmKa02FDXIz0y2Jsv0RR9XntJWz+yU1rSo=
-Modified: 638340750268073101
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Card\CardComponent.yml
-ID: "c4bdf51a-ee80-486c-bb12-bec26849b238"
-Parent: "7eb2f9e2-9ddb-4949-a9c0-deadf4461f07"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectsFolder.yml
+ID: "5ac6c50b-2c63-4e6c-9d54-5b3b0491f838"
+Parent: "81645d8e-d8f4-4e1a-aad6-69bf13b29517"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Card/CardComponent
-Signature: kZOfgEDd1CJxfzzd8EM+9Bnq1QtqWeVR1TvJX5bsHug=
-Modified: 638340752545847543
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectsFolder
+Signature: 8EJm3D+b+yfSf94lTvMpRwfQJSrtHWBuaDPkGlLBFE4=
+Modified: 638340807773549707
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectTeamMembers.yml
-ID: "530ba405-9e8f-439c-a225-59b27d11b53a"
-Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectTeamMembers
-Signature: WH6N2p0E+eVKvPxEOPFeSY9lbUFg0QzFILejtU4L070=
-Modified: 638340750268073101
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Client\ClientDetail.yml
+ID: "f95db117-6c4e-4516-8be6-434c16a8f9c6"
+Parent: "ed9def7e-4779-4dd6-bafb-40d739f7faf6"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Page Templates/Client/ClientDetail
+Signature: h8/ot+9B280SWltdkTOUEatyl3U3hL21wQQzfx1cibM=
+Modified: 638340752545987633
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Client\ClientListing.yml
+ID: "b6796264-f108-4925-b876-abce4a9f9abf"
+Parent: "ed9def7e-4779-4dd6-bafb-40d739f7faf6"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Page Templates/Client/ClientListing
+Signature: Z8GvHpLV8aBX2R1QLY6hhh2Ho3H/zYCT9xtBwcu3fpc=
+Modified: 638340752546007715
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Employee\Employee Detail.yml
+ID: "826018f7-ea76-4f76-9e7b-d0bec6c4bf22"
+Parent: "de4846f4-3aeb-470e-a02d-3b9b39bb5023"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Page Templates/Employee/Employee Detail
+Signature: 2VVdmoDbDEB4JElw105hqzLnplywehQ0BdEgeHqIalg=
+Modified: 638340752546023603
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Employee\Employee Listing.yml
+ID: "e16828c4-f994-47a5-9975-150b675b9a0b"
+Parent: "de4846f4-3aeb-470e-a02d-3b9b39bb5023"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Page Templates/Employee/Employee Listing
+Signature: jJDuYy4N2mDxt+FrYHaXukvzBQHUeKnCS1Uyh8oLpa8=
+Modified: 638340752546023603
 ---
 File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseInfo\Data.yml
@@ -892,85 +586,40 @@ Signature: NdPchqKhNW+V7oI5q++bvEWQYwljbOEkdkKHtZH/WXA=
 Modified: 638340750267755777
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectVideo.yml
-ID: "4732a2b8-b4b2-46b2-8071-812855eaa9d4"
-Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectVideo
-Signature: QORHVFR2dCL+LiQqsc4IV/Gfz2NhXl0+90P5lKIOIBQ=
-Modified: 638340750268229604
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseInfo\__Standard Values.yml
+ID: "906c98cc-f551-4a42-a007-c6e2285edbb0"
+Parent: "b69e32fe-41a3-4658-b8f5-e375622800c5"
+Template: "b69e32fe-41a3-4658-b8f5-e375622800c5"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseInfo/__Standard Values
+Signature: 8eBHp6aCeCY6XZ/YvOE4N8DZVmspvdzGoz3cayHt/cA=
+Modified: 638340807773829767
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Card\CardDetail\CardData.yml
-ID: "4e72e9a9-4a3a-4f3a-9502-16776f067fdd"
-Parent: "70131d4c-f9ca-45b3-98de-f7da07f9a797"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\CardListCarousel\CardList\CardTile.yml
+ID: "14716db5-4a47-4445-8378-1feede06cb22"
+Parent: "c4bdf51a-ee80-486c-bb12-bec26849b238"
 Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Card/CardDetail/CardData
-Signature: qhBkz13oONILxTKjhA3siTiKBz+o4fv7vKDNYZhCgu4=
-Modified: 638340752546186601
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/CardListCarousel/CardList/CardTile
+Signature: rJAkRDOjFGoyTOXT9T/McsPytjprU2IMbXICcVJQgqw=
+Modified: 638340821076181361
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Accordian\Accordian\AccordianData\Description.yml
-ID: "5e58f487-4cb2-4692-ab53-bc372a90dc03"
-Parent: "bbf0ba3c-2e15-49a2-9e0f-883182c7576d"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordian/Accordian/AccordianData/Description
-Signature: vA/oVeNFdYC+JcuJyzEzedSEwkN5bbvyCPejBPnLUk4=
-Modified: 638340752545937637
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\CardListCarousel\CardList\__Standard Values.yml
+ID: "e3129eb9-8dcf-4def-9713-d4000f14b500"
+Parent: "c4bdf51a-ee80-486c-bb12-bec26849b238"
+Template: "c4bdf51a-ee80-486c-bb12-bec26849b238"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/CardListCarousel/CardList/__Standard Values
+Signature: mG3/OM6+yMVOBXDUUudY3CBtL8+7TtjvXvRaGn5cWWs=
+Modified: 638340821076181361
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Card\CardDetail\CardData\CardTitle.yml
-ID: "d56c5adf-6c31-4f2d-9444-20e5397f8486"
-Parent: "4e72e9a9-4a3a-4f3a-9502-16776f067fdd"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Card/CardDetail/CardData/CardTitle
-Signature: IwPi2WhHaGEkB5UGz6bx3rr0pTLCHNhNNESx5/gOoAU=
-Modified: 638340752546186601
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Accordian\Accordian\AccordianData\Title.yml
-ID: "448bc5ab-3e1e-4fb4-9614-6205a4ad9813"
-Parent: "bbf0ba3c-2e15-49a2-9e0f-883182c7576d"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordian/Accordian/AccordianData/Title
-Signature: ZaOOXXyekqgEdfBzqF/hB4DK1gbaHkcaZJG9SpHM2Ko=
-Modified: 638340752545917610
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData\CopyrightText.yml
-ID: "d14c8807-e107-4a53-bced-9aee8f922648"
-Parent: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData/CopyrightText
-Signature: DZ8JxKoH8qvB2y/kWp8ahug4hf+zxjPIJBFT6kw5pfQ=
-Modified: 638340750268700492
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global.yml
-ID: "7d68ae39-3d61-4f83-976f-98c0a4afb461"
-Parent: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive.yml
+ID: "074e856f-50dc-4a75-8823-bfb195969d84"
+Parent: "8f343079-3cc5-4ef7-bc27-32addb46f45e"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global
-Signature: imWsLSGjM4vYAwdYRbjASL7IykpXrgG5u68OuSkxiWk=
-Modified: 638340750265710969
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project.yml
-ID: "81645d8e-d8f4-4e1a-aad6-69bf13b29517"
-Parent: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project
-Signature: kgWOb9Hp0lxWn90xHozxbrQJCQjszlplL/bPbip2y3A=
-Modified: 638340750265871587
----
-File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Client.yml
-ID: "ed9def7e-4779-4dd6-bafb-40d739f7faf6"
-Parent: "56f2acfa-6978-4f3e-ab29-188f684bea43"
-Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/projectarchive/Page Templates/Client
-Signature: f+8gC/w4USrMG6OzRApraGHLvP52FT4YSb5U2HuE+Q0=
-Modified: 638340750265871587
+Path: /sitecore/templates/Feature/projectarchive
+Signature: I9GQ260i6ATXc+s0JA1TFoILFJL7x9JesEj8muNODvU=
+Modified: 638340134152166933
 ---
 File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Employee.yml
@@ -989,6 +638,15 @@ Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
 Path: /sitecore/templates/Feature/projectarchive/Page Templates/Project
 Signature: RHm4miiOqs4R3SfgS63OJyV5RJ5w8YUuzk1J37rTXvk=
 Modified: 638340750265956756
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\_Base Page.yml
+ID: "d369a486-0b05-4a69-91d6-109857778d8a"
+Parent: "56f2acfa-6978-4f3e-ab29-188f684bea43"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Page Templates/_Base Page
+Signature: ByF1flwWMgY235Yhla1a51rgEgGEDHuLYiStSBKcQu4=
+Modified: 638340752545967640
 ---
 File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientDetail.yml
@@ -1054,13 +712,13 @@ Signature: 6tHxlSt+XyordMiGYHre7Uy3/OkPIrP49saRFuWJfDI=
 Modified: 638340750266188746
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Card.yml
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\CardListCarousel.yml
 ID: "7eb2f9e2-9ddb-4949-a9c0-deadf4461f07"
 Parent: "7d68ae39-3d61-4f83-976f-98c0a4afb461"
 Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Card
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/CardListCarousel
 Signature: CjQReID3v1wvGLA1FmTrUR/J8BVu4HAbvuABUObvPWw=
-Modified: 638340750266188746
+Modified: 638340819861882306
 ---
 File: |
   D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\EnumFolder.yml
@@ -1099,37 +757,469 @@ Signature: ImI2BJzMLL9SNqY9RgR4KfdJYw9WYMTHdso0XhQMU14=
 Modified: 638340750266188746
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Client\ClientListing.yml
-ID: "b6796264-f108-4925-b876-abce4a9f9abf"
-Parent: "ed9def7e-4779-4dd6-bafb-40d739f7faf6"
-Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Page Templates/Client/ClientListing
-Signature: Z8GvHpLV8aBX2R1QLY6hhh2Ho3H/zYCT9xtBwcu3fpc=
-Modified: 638340752546007715
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header.yml
+ID: "474a163d-2316-4a76-a5da-c7cde80f0c7b"
+Parent: "7d68ae39-3d61-4f83-976f-98c0a4afb461"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header
+Signature: qU1l6HTWTU1oc4990sVih+XrLRDH+/YcK+KRzhCKFa8=
+Modified: 638340750266344982
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Employee\Employee Detail.yml
-ID: "826018f7-ea76-4f76-9e7b-d0bec6c4bf22"
-Parent: "de4846f4-3aeb-470e-a02d-3b9b39bb5023"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Main Section Template Folder.yml
+ID: "c2555954-2845-4a3f-8287-d121586cff9d"
+Parent: "7d68ae39-3d61-4f83-976f-98c0a4afb461"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Feature/projectarchive/Page Templates/Employee/Employee Detail
-Signature: 2VVdmoDbDEB4JElw105hqzLnplywehQ0BdEgeHqIalg=
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Main Section Template Folder
+Signature: KFunisWKhisKWx2v7Kmx42J281mLoK1zju733Qdu11k=
+Modified: 638340807773429288
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\Project\ProjectListing.yml
+ID: "6eadb23f-bd98-4856-a03f-c04de7e44633"
+Parent: "427d5f77-e46e-4bc7-abfd-d445e5ac0936"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Page Templates/Project/ProjectListing
+Signature: CohgDpkfOH11ZoUlS9BQcg60Rk4DJt+sJER5B7yKirc=
 Modified: 638340752546023603
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Card\CardDetail\CardData\CardDescription.yml
-ID: "7f7d7605-b46f-40a9-9e0a-20722d00ac3b"
-Parent: "4e72e9a9-4a3a-4f3a-9502-16776f067fdd"
-Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Card/CardDetail/CardData/CardDescription
-Signature: cLf3cc99RF++TTd3i5ltOXpTYydT4YwfG2XiWVrq2II=
-Modified: 638340752546186601
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Page Templates\_Base Page\__Standard Values.yml
+ID: "c742c374-d91e-40cb-ba0f-0fe472fdf033"
+Parent: "d369a486-0b05-4a69-91d6-109857778d8a"
+Template: "d369a486-0b05-4a69-91d6-109857778d8a"
+Path: /sitecore/templates/Feature/projectarchive/Page Templates/_Base Page/__Standard Values
+Signature: HIdyQ9qhrkTFoW8Ve/KmYrWVLXnXd+kL9aYGma1XNyM=
+Modified: 638340750268860638
 ---
 File: |
-  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Card\CardDetail\CardData\CardImage.yml
-ID: "10660a12-ee1e-4425-9a98-e066ade0aeba"
-Parent: "4e72e9a9-4a3a-4f3a-9502-16776f067fdd"
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientDetail\Data.yml
+ID: "bfc151f3-9e0a-4706-bf84-f6c93ce8093f"
+Parent: "9c39df98-c433-4c02-90fa-6b64d7768512"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientDetail/Data
+Signature: 2/22w90kFVr+E7WIpFmE/DUROYGXmx7ivTfBZkGHrjM=
+Modified: 638340750266660394
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientDetail\PersonalInfo.yml
+ID: "82093ff0-4045-4cd6-a971-309eac460d11"
+Parent: "9c39df98-c433-4c02-90fa-6b64d7768512"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientDetail/PersonalInfo
+Signature: Azul0rb9SGCMLJ5IUQTAb6dKoJ32u7p99MAz0iR2z60=
+Modified: 638340750266660394
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientFolder\__Standard Values.yml
+ID: "c4c2e672-0812-4ad0-b5ff-e4e8dbf7fe70"
+Parent: "590d7f80-e935-46d4-8d56-0b97760ba2e0"
+Template: "590d7f80-e935-46d4-8d56-0b97760ba2e0"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientFolder/__Standard Values
+Signature: U5dWRuymkAZFPJdSqNbcp2cpbsolXKUmumZnP6wuamw=
+Modified: 638340750268860638
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Data.yml
+ID: "f16c7a41-a237-4ea6-a01b-fdde653f132f"
+Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Data
+Signature: TebeSBN0YR8Gr29sMvtjuZK8H1uXTxE7QteA9xXtgAg=
+Modified: 638340750266660394
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Employee Information.yml
+ID: "18effa58-324d-46f2-becc-e977919a5d67"
+Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information
+Signature: x5oUl74pm4l5woewOTbCMTV4KrCmeQ3c/qP18+pQ0yQ=
+Modified: 638340750266660394
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\Personal Info.yml
+ID: "ac9576ef-7047-4c35-a301-13e58d0f05bb"
+Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Personal Info
+Signature: j/a7ZlsuCpJbSNzrLaxXS8CoXTS66QSLV2JFOirOaMk=
+Modified: 638340750266660394
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Detail\__Standard Values.yml
+ID: "c2431ab5-29e3-416a-a7de-9936a51c1679"
+Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
+Template: "96451aac-a053-4548-8e72-6f627ff08f5e"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/__Standard Values
+Signature: 8HOaLSrebiTccDj2sbF6mESoRrlQadIX/bpIAyrxJCU=
+Modified: 638340807773579732
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Employee\Employee Folder\__Standard Values.yml
+ID: "47290e0b-8708-47fd-b65d-28d57c8f35e0"
+Parent: "1ef27721-f674-497c-b437-423887d275b2"
+Template: "1ef27721-f674-497c-b437-423887d275b2"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Folder/__Standard Values
+Signature: 4RmAlB/qRDj6h2Ftyuxeo/wx9xYOdS55CaXHd4A6p08=
+Modified: 638340750268966185
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Accordian\Accordian.yml
+ID: "e4881e60-3d19-44c2-b8f1-b62e6de6920e"
+Parent: "e0239341-7b87-4ed7-a9e0-5cd771d7ea2b"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordian/Accordian
+Signature: z2AIE52WBW7GLAmEIETHH7QK5MEce9H0yhFTY76guXo=
+Modified: 638340797924503068
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\BannerComponent.yml
+ID: "51df041c-259e-4b43-b719-acc1efb3a5e6"
+Parent: "da79a192-3824-4b1c-8dec-dd36520fc38d"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerComponent
+Signature: dgVUR52ESkcbGK3zbOlAQ6JqiYUIQqU0HsKyoaLHAj0=
+Modified: 638340797924668555
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\BannerFolder.yml
+ID: "64f6791f-177c-4c7e-a3ec-4b0aeeec5e73"
+Parent: "da79a192-3824-4b1c-8dec-dd36520fc38d"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerFolder
+Signature: gbgcFxbakuaPIhlqA3sTxfZGosJs1rrCYxfFn7RNoxk=
+Modified: 638340797924317358
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseCard.yml
+ID: "4b841f20-10d0-4cff-a61e-1e2d980f274b"
+Parent: "12e00961-175f-443b-834d-adf8affbd8c1"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseCard
+Signature: Iu81gpy9FoKEjIRwwq96Lo7zY6LJt/RrKWnSiB4EyLA=
+Modified: 638340819861480042
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseInfo.yml
+ID: "b69e32fe-41a3-4658-b8f5-e375622800c5"
+Parent: "12e00961-175f-443b-834d-adf8affbd8c1"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseInfo
+Signature: 5joKBA8+SQtwVJ8eQuZh9yX2NLXf+0jK3IF9a562H3w=
+Modified: 638340807773569694
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\CardListCarousel\Card.yml
+ID: "70131d4c-f9ca-45b3-98de-f7da07f9a797"
+Parent: "7eb2f9e2-9ddb-4949-a9c0-deadf4461f07"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/CardListCarousel/Card
+Signature: DVMh2Vy1irV2xSLfYRx8hjnsAXq7u7QvSlcjCLDL+cw=
+Modified: 638340821076142485
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\CardListCarousel\CardList.yml
+ID: "c4bdf51a-ee80-486c-bb12-bec26849b238"
+Parent: "7eb2f9e2-9ddb-4949-a9c0-deadf4461f07"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/CardListCarousel/CardList
+Signature: vq2hn/ZO8EpopBPtUqFeF/bz80YB+30C6TzPAjzP4ZE=
+Modified: 638340821076171353
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\EnumFolder\__Standard Values.yml
+ID: "f6914d78-91c2-4050-99a9-f745f1c704d3"
+Parent: "1a0b46a6-55a0-4921-b969-a9861c7fd729"
+Template: "1a0b46a6-55a0-4921-b969-a9861c7fd729"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/EnumFolder/__Standard Values
+Signature: EDahOfKmSPwxOEnplBzNDQUpi2q4oodlYUM5nwa17wc=
+Modified: 638340750268966185
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates.yml
+ID: "359268b3-7ef1-44f9-9de9-7ff3a72ffcfa"
+Parent: "074e856f-50dc-4a75-8823-bfb195969d84"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates
+Signature: yMaG85gwzQKYUPmPoN0uKCh5oeGkGfAmsVqzCA4SI+U=
+Modified: 638340750265710969
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Client\ClientDetail\__Standard Values.yml
+ID: "b4259b91-4778-4d7f-a52d-22a302afd9f6"
+Parent: "9c39df98-c433-4c02-90fa-6b64d7768512"
+Template: "9c39df98-c433-4c02-90fa-6b64d7768512"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientDetail/__Standard Values
+Signature: EevcGxKdnKx1jZbDIR8fI0HXnQkakQVLg3624kXIkXo=
+Modified: 638340750268860638
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\EnumItem\EnumItemDetail\Title.yml
+ID: "581d38a5-c505-4c2c-8315-2c171b20b0bc"
+Parent: "aa71dacf-66cd-4775-9659-943f401a111a"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Card/CardDetail/CardData/CardImage
-Signature: 1V0XeT1c5Uk4XQVEK1jk5x9GYV7iJ0yd2/RhBttrYlc=
-Modified: 638340752546186601
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/EnumItem/EnumItemDetail/Title
+Signature: V3G2Py6wCu5Kj5cnOLWy/iNwqgSlBexqQANoluHdI1c=
+Modified: 638340750267755777
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData.yml
+ID: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
+Parent: "69206250-4fa1-4868-95eb-3d470d2865cf"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData
+Signature: kkWXi9xkwFcMGtoOKaboln2xNik8BTTQEoRbmd4a3Ww=
+Modified: 638340750267912181
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\__Standard Values.yml
+ID: "d8d0eecf-6478-49dd-9a0c-c4e8b7ba8594"
+Parent: "69206250-4fa1-4868-95eb-3d470d2865cf"
+Template: "69206250-4fa1-4868-95eb-3d470d2865cf"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/__Standard Values
+Signature: 42m04WMnZjVkzNqDor+wosKhuuQby6BW1S5sbXv6l0g=
+Modified: 638340750269436683
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header\HeaderTemplate\HeaderData.yml
+ID: "44b1e365-f938-47b3-a0c0-50d97bc1ffb0"
+Parent: "6f291634-e5b8-4555-b049-c1384e2292f8"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header/HeaderTemplate/HeaderData
+Signature: qo350KkWTb6fGOmwcv+iW/ZdobFFk/qkV6fQMu+y9uE=
+Modified: 638340750267957505
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Header\HeaderTemplate\__Standard Values.yml
+ID: "0f337653-2b79-43a9-ae78-dd0a6ee501bf"
+Parent: "6f291634-e5b8-4555-b049-c1384e2292f8"
+Template: "6f291634-e5b8-4555-b049-c1384e2292f8"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Header/HeaderTemplate/__Standard Values
+Signature: pg0u/utBktYNAH/4zwd7PubBrILQxKZQlYwmcwoZBE8=
+Modified: 638340750269436683
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\SocialLinkItems\SocialLinksData\Icon.yml
+ID: "25521119-4bf6-46d2-b50d-e8e35b57496d"
+Parent: "834cc45e-d0a9-41d7-a3ed-69b43767599b"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/SocialLinkItems/SocialLinksData/Icon
+Signature: sfhJ/a0TSlKZcA12n2BMHUDga+9FFsaMUJ2nmqW9Hco=
+Modified: 638340750268027975
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\SocialLinkItems\SocialLinksData\Link.yml
+ID: "90247700-30cf-4e83-8cca-89d92eaf4283"
+Parent: "834cc45e-d0a9-41d7-a3ed-69b43767599b"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/SocialLinkItems/SocialLinksData/Link
+Signature: HbZWrdIwEqy/nDTiIyroNrRO7k6MJYqWBBrSNOt6XY4=
+Modified: 638340750268073101
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectEndDate.yml
+ID: "791cf1ca-5984-4779-8583-bb0110f82bf5"
+Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectEndDate
+Signature: m5mCvaJ3BAQegbYWA6wowS21TyCCrN3LaRmH3zD1mpA=
+Modified: 638340750268229604
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectImage.yml
+ID: "41632692-d262-4e9d-9146-6d82997378e0"
+Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectImage
+Signature: FBWZXUxkpLsgj6WSoc22LbVzaZ+M7vYur/cpmwnTYoA=
+Modified: 638340750268229604
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectStartDate.yml
+ID: "8cd811a6-06f4-421f-b1b2-28279c6bd429"
+Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectStartDate
+Signature: 52v2GqGwgC9CDQhYR6+5nPyUSVpszRhB1b2knD210/Q=
+Modified: 638340750268229604
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectStatus.yml
+ID: "7a3582f5-4ecc-45cf-9c1d-904a71f384ab"
+Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectStatus
+Signature: +zum6rn5JlmKa02FDXIz0y2Jsv0RR9XntJWz+yU1rSo=
+Modified: 638340750268073101
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Project\ProjectDetail\ProjectDetailSection\ProjectTeamMembers.yml
+ID: "530ba405-9e8f-439c-a225-59b27d11b53a"
+Parent: "6de31bf7-dd0d-4f35-bf24-142db96a28e0"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/ProjectDetail/ProjectDetailSection/ProjectTeamMembers
+Signature: H563WOy5RBebJqDjZLFfDd1hikhAfRsS+qNjZZpwIXQ=
+Modified: 638340807773789796
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Accordian\Accordian\AccordianData\Content.yml
+ID: "f69a8fec-9fb4-4bec-96c8-009031bb5dce"
+Parent: "bbf0ba3c-2e15-49a2-9e0f-883182c7576d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordian/Accordian/AccordianData/Content
+Signature: p9LDlKhTHijSc0jwjOsoWw1DsexCgGSKq5usqWrc7j0=
+Modified: 638340797924337546
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Accordian\Accordian\AccordianData\Description.yml
+ID: "5e58f487-4cb2-4692-ab53-bc372a90dc03"
+Parent: "bbf0ba3c-2e15-49a2-9e0f-883182c7576d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordian/Accordian/AccordianData/Description
+Signature: vA/oVeNFdYC+JcuJyzEzedSEwkN5bbvyCPejBPnLUk4=
+Modified: 638340752545937637
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Accordian\Accordian\AccordianData\Title.yml
+ID: "448bc5ab-3e1e-4fb4-9614-6205a4ad9813"
+Parent: "bbf0ba3c-2e15-49a2-9e0f-883182c7576d"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordian/Accordian/AccordianData/Title
+Signature: ZaOOXXyekqgEdfBzqF/hB4DK1gbaHkcaZJG9SpHM2Ko=
+Modified: 638340752545917610
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\BannerComponent\BannerData\BannerCTA.yml
+ID: "33074cd7-cdb1-4932-9c65-5d7a422de44b"
+Parent: "99153619-3feb-4737-b5ae-b73e0e0381aa"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerComponent/BannerData/BannerCTA
+Signature: zEukszqr86T+kYZucq6nM48xyTHHRRugVtUY2vJp6q4=
+Modified: 638340797924796397
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\BannerComponent\BannerData\BannerDescription.yml
+ID: "3723ffcf-dbfc-4732-8bf6-ec38424444bc"
+Parent: "99153619-3feb-4737-b5ae-b73e0e0381aa"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerComponent/BannerData/BannerDescription
+Signature: B79+jFccdZey+mdnEDWB/80pFpd8dIioYGXznRflPTc=
+Modified: 638340797924801489
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\BannerComponent\BannerData\BannerHeading.yml
+ID: "504b6a24-30f7-4d75-96ac-7e4de2c29514"
+Parent: "99153619-3feb-4737-b5ae-b73e0e0381aa"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerComponent/BannerData/BannerHeading
+Signature: bcHPj1uwmmbNOGExRtDCMMQRlw8Y9f2RrOwXpX0Vfd4=
+Modified: 638340797924801489
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Banner\BannerComponent\BannerData\BannerImage.yml
+ID: "5449235e-28a1-44ed-a52c-e3731fe9b73c"
+Parent: "99153619-3feb-4737-b5ae-b73e0e0381aa"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Banner/BannerComponent/BannerData/BannerImage
+Signature: b9QtALvga18l1pxMhx6bd1hCWVPgNDytB/K7CWm8DiQ=
+Modified: 638340797924796397
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseCard\Data\CTA.yml
+ID: "d425d8b7-4bfa-47a5-99ec-5d9e92b357bf"
+Parent: "1b923171-57f0-454e-a931-9d6cd8a5cec9"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseCard/Data/CTA
+Signature: pf5sdW6o1boGMaRLtEQa8rRhyIfVBNa5RkGyZsf5k8w=
+Modified: 638340819861614144
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseCard\Data\Description.yml
+ID: "ea253e68-ae1b-4691-8e41-d4f4852ed951"
+Parent: "1b923171-57f0-454e-a931-9d6cd8a5cec9"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseCard/Data/Description
+Signature: pCtiJLpNALjxIHX6YVooGD4CKpuluBxBuBVeD0kdDsA=
+Modified: 638340819861574155
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseCard\Data\Name.yml
+ID: "78f43779-2811-43b8-ae82-b9d543d00236"
+Parent: "1b923171-57f0-454e-a931-9d6cd8a5cec9"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseCard/Data/Name
+Signature: dKLwbsvEzFT+M2zYW/Y5quvb2cLpqC9wuMCoFirxuCk=
+Modified: 638340819861554114
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseCard\Data\Thumbnail.yml
+ID: "4093d419-0977-4eb3-a882-5c05e9d53a24"
+Parent: "1b923171-57f0-454e-a931-9d6cd8a5cec9"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseCard/Data/Thumbnail
+Signature: SbhcT5gyxUWJTT9AcFMocFyiGWnQJNMMgSXJLfS2dKU=
+Modified: 638340819861594173
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseInfo\Data\Description.yml
+ID: "5521ea20-6c42-4aec-ba0b-cea23cee8667"
+Parent: "9e90d947-fef3-4756-9187-10152b5d5348"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseInfo/Data/Description
+Signature: pCtiJLpNALjxIHX6YVooGD4CKpuluBxBuBVeD0kdDsA=
+Modified: 638340750268393402
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseInfo\Data\Name.yml
+ID: "7d4127df-963c-4806-93ef-197dd902c8c1"
+Parent: "9e90d947-fef3-4756-9187-10152b5d5348"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseInfo/Data/Name
+Signature: dKLwbsvEzFT+M2zYW/Y5quvb2cLpqC9wuMCoFirxuCk=
+Modified: 638340750268393402
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Base Templates\_BaseInfo\Data\Thumbnail.yml
+ID: "65d584b1-9710-4582-a55c-0a89bcecefbb"
+Parent: "9e90d947-fef3-4756-9187-10152b5d5348"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Base Templates/_BaseInfo/Data/Thumbnail
+Signature: SbhcT5gyxUWJTT9AcFMocFyiGWnQJNMMgSXJLfS2dKU=
+Modified: 638340807773459236
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\CardListCarousel\CardList\CardTile\Cards.yml
+ID: "4628f997-16ea-4ef9-96ed-cb4077a70c70"
+Parent: "14716db5-4a47-4445-8378-1feede06cb22"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/CardListCarousel/CardList/CardTile/Cards
+Signature: xJgVTcnM3phxdqp6o15ytxYDm1UtDeqY5seSXQ5IXo0=
+Modified: 638340821076181361
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\CardListCarousel\CardList\CardTile\Description.yml
+ID: "7d6c7332-e469-4f33-8795-5b7b9b75bf7f"
+Parent: "14716db5-4a47-4445-8378-1feede06cb22"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/CardListCarousel/CardList/CardTile/Description
+Signature: T2iqKm7zsppuup1xkTpUdHvx5SznZ/tOLd7iMD8Y7Hg=
+Modified: 638340821076181361
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\CardListCarousel\CardList\CardTile\Heading.yml
+ID: "94520ee7-4112-4a22-b0a9-c22d22deee4a"
+Parent: "14716db5-4a47-4445-8378-1feede06cb22"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/CardListCarousel/CardList/CardTile/Heading
+Signature: 2g9eQBu4j4wpxGfcVzR2y8M68QyaKzpmqSwkvQhW5uo=
+Modified: 638340821076181361
+---
+File: |
+  D:\Projects\team-archivers\modules\serialization\templates\projectarchive\Datasource Templates\Global\Footer\FooterTemplate\FooterData\CopyrightText.yml
+ID: "d14c8807-e107-4a53-bced-9aee8f922648"
+Parent: "4891e35b-344f-4a19-9aa0-5d2334bfdb0a"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Footer/FooterTemplate/FooterData/CopyrightText
+Signature: DZ8JxKoH8qvB2y/kWp8ahug4hf+zxjPIJBFT6kw5pfQ=
+Modified: 638340750268700492
