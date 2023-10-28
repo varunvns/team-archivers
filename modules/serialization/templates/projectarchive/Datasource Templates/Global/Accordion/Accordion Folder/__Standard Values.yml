@@ -1,0 +1,31 @@
+﻿---
+ID: "2d35b91e-9661-4d98-a3e4-59af2d292330"
+Parent: "58005d9c-04a5-4f5a-a805-3363df660539"
+Template: "58005d9c-04a5-4f5a-a805-3363df660539"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordion/Accordion Folder/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231028T094815Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e8ad7b25-f73a-4a11-84d9-e0dc2cbeb9e9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231028T094815Z
