@@ -1,12 +1,15 @@
 ﻿---
-ID: "18effa58-324d-46f2-becc-e977919a5d67"
-Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/Employee Detail/Employee Information
+ID: "2bc218e9-9fbe-46f8-95ab-c631c470aa60"
+Parent: "ac9576ef-7047-4c35-a301-13e58d0f05bb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/EmployeeDetail/Personal Info/Phone
 SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Number
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 300
 Languages:
 - Language: en
   Versions:
@@ -25,7 +28,7 @@ Languages:
         sitecore\Varun
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "da6dd36a-1b99-4560-b347-0e6bfc7c21b4"
+      Value: "6a712122-07b9-46c9-8377-7e1cdd3de86d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

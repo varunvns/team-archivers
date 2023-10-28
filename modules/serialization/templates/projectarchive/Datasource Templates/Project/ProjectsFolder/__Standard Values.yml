@@ -6,9 +6,7 @@ Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Project/Pr
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
-  Value: |
-    {5AC6C50B-2C63-4E6C-9D54-5B3B0491F838}
-    {8391F28B-8CA4-4FED-84F3-9061798308FC}
+  Value: "{8391F28B-8CA4-4FED-84F3-9061798308FC}"
 Languages:
 - Language: en
   Versions:
@@ -27,11 +25,11 @@ Languages:
         sitecore\devanshi
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "777aba65-b083-4d7f-998c-74bb91c84448"
+      Value: "5e5a5d46-a4d5-4843-af5e-9e45a567d4ba"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\devanshi
+        sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T085728Z
+      Value: 20231028T103354Z
