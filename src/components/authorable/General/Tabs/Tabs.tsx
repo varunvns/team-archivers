@@ -13,13 +13,13 @@ export type TabsProps = ProjectArchive.DatasourceTemplates.Global.Tabs.Fields.Ta
 };
 
 const Tabs = ({ fields }: TabsProps): JSX.Element => {
-  // Fail out if fields aren't present
-  if (fields === null || fields === undefined) return <></>;
   const [activeIndex, setActiveIndex] = useState('');
-
   useEffect(() => {
     setActiveIndex(fields?.Tabs[0]?.id);
   }, []);
+  // Fail out if fields aren't present
+  if (fields === null || fields === undefined) return <></>;
+
   const handleSetIndex = (index: string) => {
     activeIndex !== index ? setActiveIndex(index) : setActiveIndex('');
   };
