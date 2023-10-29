@@ -1,11 +1,12 @@
 // import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, LinkField } from '@sitecore-jss/sitecore-jss-nextjs';
 
 // Local
 import Iframe from 'react-iframe';
 // Ideally, all this is from generated Typescript code from Sitecore and we're not manually defining types.
 interface Fields {
-  text: Field<string>;
+  text?: Field<string>;
+  url: LinkField;
 }
 
 export type IframeProps = {
@@ -21,7 +22,7 @@ const IframeComponent = ({ fields }: IframeProps): JSX.Element => {
   return (
     <div>
       <Iframe
-        url="http://www.youtube.com/embed/xDMP3i36naA"
+        url={fields?.url?.value?.href ? fields?.url?.value?.href : ''}
         width="640px"
         height="320px"
         id=""
