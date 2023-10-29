@@ -1,0 +1,40 @@
+/* stylelint-disable function-no-unknown */
+@tailwind base; /* Add this line */
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Theme */
+
+  .themeWhite {
+    --theme-bg: theme('colors.blue');
+    --theme-text: theme('colors.orange');
+    --theme-border: theme('colors.green');
+  }
+  .themeBlack {
+    --theme-bg: theme('colors.purple');
+    --theme-text: theme('colors.orange');
+    --theme-border: theme('colors.green');
+  }
+  .themeBlue {
+    --theme-bg: theme('colors.pink');
+    --theme-text: theme('colors.orange');
+    --theme-border: theme('colors.green');
+  }
+}
+
+/* .themeWhite {
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
+  border-color: var(--theme-border);
+}
+.themeBlack {
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
+  border-color: var(--theme-border);
+}
+.themeBlue {
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
+  border-color: var(--theme-border);
+} */
