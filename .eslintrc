@@ -9,7 +9,8 @@
     "plugin:prettier/recommended"
   ],
   "plugins": ["@typescript-eslint", "prettier", "yaml"],
-  "ignorePatterns": [".generated/**/*", "**/*.d.ts", "**/*.js"],
+  "ignorePatterns": [".generated/**/*", "**/*.d.ts", "**/*.js","models/*.ts","src/components/authorable/General/**/*.mock-data.ts",
+  "src/components/authorable/General/**/*.stories.tsx","src/components/authorable/General/**/*.test.tsx"],
   "rules": {
     "@next/next/no-img-element": "off", // Don't force next/image
     "@typescript-eslint/ban-ts-comment": [

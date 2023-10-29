@@ -3,6 +3,7 @@ import { Text, Image, RichText } from '@sitecore-jss/sitecore-jss-nextjs';
 import React from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+//import Slider from 'react-slick';
 import Slider from 'react-slick';
 import { ProjectArchive } from '../../../../../models/Feature.ProjectArchive.Model';
 
