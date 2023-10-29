@@ -2,8 +2,8 @@
 import { snapshot, hasDataComponent, renderComponent } from 'lib/testing/utils';
 
 // Local
-import Iframe from './Iframe';
-import defaultData, { noData } from './Iframe.mock-data';
+import Iframe from './IframeComponent';
+import defaultData, { noData } from './IframeComponent.mock-data';
 
 it('renders correctly', () => {
   const component = snapshot(Iframe, { componentProps: defaultData });
