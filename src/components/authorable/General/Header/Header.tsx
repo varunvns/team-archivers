@@ -4,6 +4,7 @@ import { faClose, faHamburger } from '@fortawesome/free-solid-svg-icons';
 import FontAwesomeIcon from '@/components/helpers/FontAwesomeIcon/FontAwesomeIcon';
 import Text from '@/components/helpers/Text/Text';
 import Link from 'next/link';
+import Image from 'next/image';
 export type HeaderType = ProjectArchive.DatasourceTemplates.Global.Header.Fields.HeaderTemplate & {
   fields: ProjectArchive.DatasourceTemplates.Global.Header.Fields.HeaderTemplate;
 };
@@ -18,7 +19,7 @@ const Header = ({ fields }: HeaderType): JSX.Element => {
     <header className="bg-blue-500 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
-          {/* <Image src={fields?.Logo?.value?.src || ''} alt="Logo" height={30} width={70} /> */}
+          <Image src={fields?.Logo?.value?.src || ''} alt="Logo" height={30} width={70} />
           <Text
             tag={'p'}
             text={fields?.TagLine?.value}
