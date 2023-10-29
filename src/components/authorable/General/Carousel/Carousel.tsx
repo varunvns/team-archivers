@@ -28,7 +28,6 @@ const Carousel = ({ fields }: CarouselProps): JSX.Element => {
     slidesToScroll: 1,
   };
   return (
-
     <div className="bg-teal-600 text-center p-10">
       {fields?.Heading?.value && <h2> {fields?.Heading?.value} </h2>}
       {fields?.Description?.value && <Text tag="p" field={fields?.Description} />}
