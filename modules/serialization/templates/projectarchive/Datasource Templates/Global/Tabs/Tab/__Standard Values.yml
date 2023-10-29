@@ -1,0 +1,41 @@
+﻿---
+ID: "bebb4e7e-d8a3-4ee9-8ae3-16cb68e00814"
+Parent: "a1f8e995-b2e8-497d-b405-c3e3dc7134d5"
+Template: "a1f8e995-b2e8-497d-b405-c3e3dc7134d5"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Tabs/Tab/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231029T061708Z
+    - ID: "46645b1a-e55d-4ae4-9a77-732d9dbc444a"
+      Hint: ReadMoreLink
+      Value: |
+        <link text="Click Here" linktype="external" url="https://loremipsum.io/" anchor="" target="" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\devanshi
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\devanshi
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "44b243ac-0747-4e09-b8fb-45accf73afe9"
+    - ID: "8d36e465-6902-4de3-9250-83ea40e2aa0e"
+      Hint: Description
+      Value: "The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software. Today it's seen all around the web; on templates, websites, and stock designs. Use our generator to get your own, or read on for the authoritative history of lorem ipsum."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\devanshi
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231029T061816Z
+    - ID: "d9f06c7f-4d43-4735-9050-41997045e2b4"
+      Hint: Title
+      Value: $name
