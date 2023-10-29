@@ -1,7 +1,7 @@
-import { BreadcrumbProps } from './Breadcrumb';
+//import { BreadcrumbProps } from './Breadcrumb';
 
 // Realistically this is going to have a lot more data from Sitecore or XM Cloud, but this is a good example mock data set.
-const defaultData: BreadcrumbProps = {
+const defaultData: any = {
   rendering: { componentName: 'Breadcrumb' },
   params: {},
   fields: {

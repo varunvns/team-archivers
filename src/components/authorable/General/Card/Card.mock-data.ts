@@ -1,7 +1,7 @@
-import { CardProps } from './Card';
+//import { CardProps } from './Card';
 
 // Realistically this is going to have a lot more data from Sitecore or XM Cloud, but this is a good example mock data set.
-const defaultData: CardProps = {
+const defaultData: any = {
   rendering: { componentName: 'Card' },
   params: {},
   fields: {

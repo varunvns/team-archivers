@@ -1,7 +1,7 @@
-import { HeaderType } from './Header';
+//import { HeaderType } from './Header';
 
 // Realistically this is going to have a lot more data from Sitecore or XM Cloud, but this is a good example mock data set.
-const defaultData: HeaderType = {
+const defaultData: any = {
   rendering: { componentName: 'Header' },
   params: {},
   fields: {
