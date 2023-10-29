@@ -1,7 +1,5 @@
-import { TabsProps } from './Tabs';
-
 // Realistically this is going to have a lot more data from Sitecore or XM Cloud, but this is a good example mock data set.
-const defaultData: TabsProps = {
+const defaultData: any = {
   rendering: { componentName: 'Tabs' },
   params: {},
   fields: {
