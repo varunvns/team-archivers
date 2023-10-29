@@ -29,7 +29,7 @@ const Carousel = ({ fields }: CarouselProps): JSX.Element => {
   return (
     <div>
       {fields?.Heading?.value && <h2> {fields?.Heading?.value} </h2>}
-      {fields?.Description?.value && <Text tag="p" field={fields?.Description} /> }
+      {fields?.Description?.value && <Text tag="p" field={fields?.Description} />}
       <Slider {...settings}>
         {fields?.Cards?.map((crd, index) => (
           <div key={index}>

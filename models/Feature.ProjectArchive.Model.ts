@@ -84,6 +84,13 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Banner.Fields {
 }
 
 export namespace ProjectArchive.DatasourceTemplates.Global.CardListCarousel.Fields {
+    export type CardCarouselFolder = { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace ProjectArchive.DatasourceTemplates.Global.CardListCarousel.Fields {
     export type CardList = { 
         fields?: { 
             /**

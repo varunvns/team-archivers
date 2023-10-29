@@ -3,6 +3,15 @@ ID: "1cc14689-9b15-40c9-81ef-3beb2c4d8ce9"
 Parent: "fd6086f8-c4c1-4920-b88a-0b7dec00f039"
 Template: "fd6086f8-c4c1-4920-b88a-0b7dec00f039"
 Path: /sitecore/templates/Feature/projectarchive/Page Templates/Project/ProjectDetail/__Standard Values
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}" />
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -22,6 +31,34 @@ Languages:
               s:id="{A476DC90-DACD-42C1-AE92-5EF8105863EC}"
               s:par=""
               s:ph="headless-header"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{63AB992C-0334-4E2A-91EF-3C4771E91C10}"
+              p:after="r[@uid='{8667C4C3-0607-49DC-8845-6531F6610067}']"
+              s:id="{01162E36-73EA-42B8-90BE-B2D7C9EF7E2C}"
+              s:par="CacheClearingBehavior=Clear%20on%20publish"
+              s:ph="headless-main" />
+            <r
+              uid="{A267F85E-81B1-4D78-8048-57D0BEF28BF4}"
+              p:after="r[@uid='{63AB992C-0334-4E2A-91EF-3C4771E91C10}']"
+              s:ds="{101E1B87-37C2-46FC-B5A6-5D2EC47CF2C1}"
+              s:id="{93B1F735-F958-4F45-B7D6-78A88C745DDA}"
+              s:par=""
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{479F1438-51A1-4FFD-B42B-4D9B8EDDEBDB}"
+              p:after="r[@uid='{A267F85E-81B1-4D78-8048-57D0BEF28BF4}']"
+              s:id="{DA153F87-BBC1-4D9B-B969-1014696D96C0}"
+              s:par="CacheClearingBehavior=Clear%20on%20publish"
+              s:ph="headless-main" />
+            <r
+              uid="{80E7CBB7-A15E-4D81-B96F-185AD128901B}"
+              p:after="r[@uid='{479F1438-51A1-4FFD-B42B-4D9B8EDDEBDB}']"
+              s:ds="{2B03A7EE-3E85-4F28-9E42-111A8CC86920}"
+              s:id="{9247D736-543D-4195-BDB8-F55AB8A1AD4D}"
+              s:par=""
+              s:ph="headless-main"
               s:ccb="Clear on publish" />
             <r
               uid="{454F1665-F348-45C1-948A-D5D4ACEF8FF9}"
@@ -46,11 +83,11 @@ Languages:
         sitecore\Ishika
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ad64a6c9-c67d-48d2-bb64-5a568e0bdc38"
+      Value: "351716bd-da85-477f-875f-ba5af60a916c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Nilay
+        sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T112454Z
+      Value: 20231029T091442Z

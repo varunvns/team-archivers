@@ -1,12 +1,12 @@
 ﻿---
-ID: "e3129eb9-8dcf-4def-9713-d4000f14b500"
-Parent: "c4bdf51a-ee80-486c-bb12-bec26849b238"
-Template: "c4bdf51a-ee80-486c-bb12-bec26849b238"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/CardListCarousel/CardList/__Standard Values
+ID: "a38724b1-8a86-40b2-a7a0-995584c65fb1"
+Parent: "b0fd6cea-0103-4247-9d27-b837d4b39e5a"
+Template: "b0fd6cea-0103-4247-9d27-b837d4b39e5a"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/CardListCarousel/CardCarouselFolder/__Standard Values
 SharedFields:
 - ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
   Hint: __Masters
-  Value: 
+  Value: "{C4BDF51A-EE80-486C-BB12-BEC26849B238}"
 Languages:
 - Language: en
   Versions:
@@ -14,28 +14,22 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T073602Z
-    - ID: "4628f997-16ea-4ef9-96ed-cb4077a70c70"
-      Hint: Cards
-      Value: 
+      Value: 20231029T082335Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\Priyal
+        sitecore\Varun
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Priyal
+        sitecore\Varun
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c10d8f9d-199e-4b44-b198-ac300e63fb30"
-    - ID: "94520ee7-4112-4a22-b0a9-c22d22deee4a"
-      Hint: Heading
-      Value: $name
+      Value: "5d15f19b-ba21-4f28-8bab-a7682e8333e6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231029T083454Z
+      Value: 20231029T082359Z
