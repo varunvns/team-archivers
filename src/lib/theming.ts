@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-export type ThemeOptions = 'themeWhite' | 'themeBlack' | 'themeBlue';
+export type ThemeOptions = 'themeBlue' | 'themeBlack';
 
 const themes = {
   themeWhite: classNames('themeWhite', 'bg-theme-bg', 'text-theme-text'),

@@ -3,6 +3,23 @@
 @tailwind utilities;
 
 @layer base {
+
+  :root {
+      --primary: #000000;
+      --secondary: #F2F0F1;
+      --white: #ffffff;
+      --body-gray: #474747;
+      --success: #00C12B;
+      --warning: #ffec00;
+      --danger: #F50606;
+      --border-gray: #919b9d;
+      --sky-blue: #06CAF5;
+      --lotion: #fafafa;
+      --purple: #552b88;
+      --sea-blue: #063AF5;
+      --light-gray: #F0F0F0;
+      --yellow: #FFC633;
+    }
   html {
     font-family: 'Proxima Nova', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;

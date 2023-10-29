@@ -20,11 +20,11 @@ export type ContentBlockProps = {
 const ContentBlock = ({ fields }: ContentBlockProps): JSX.Element => {
   // Fail out if fields aren't present
   if (fields === null || fields === undefined) return <></>;
-  const correspondingTheme = 'themeWhite';
+  const correspondingTheme = 'themeBlue';
   const currentTheme = getThemeClasses(correspondingTheme as ThemeOptions);
   return (
     <div
-      className={`${currentTheme}`}
+      className={`${currentTheme} bg-primary`}
       data-component="authorable/general/contentblock"
       data-testid="contentblock"
     >
