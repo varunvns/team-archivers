@@ -3,7 +3,6 @@ import { useState } from 'react';
 
 import { NextImage, RichText, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 import { RiArrowUpSLine, RiArrowDownSLine } from 'react-icons/ri';
-
 // Local
 import { ProjectArchive } from 'models/Feature.ProjectArchive.Model';
 
