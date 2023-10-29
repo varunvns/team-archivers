@@ -140,7 +140,7 @@
     "backstop-approve": "yarpm-pnpm exec backstop approve --docker",
     "backstop-test": "yarpm-pnpm exec backstop test --docker",
     "bootstrap": "ts-node --project tsconfig.scripts.json scripts/bootstrap.ts && graphql-let",
-    "build": "yarpm-pnpm run bootstrap",
+    "build": "yarpm-pnpm run bootstrap && yarpm-pnpm run next:build",
     "build-storybook": "yarpm-pnpm run bootstrap && storybook build",
     "graphql:update": "ts-node --project tsconfig.scripts.json ./scripts/fetch-graphql-introspection-data.ts",
     "jss": "jss",
