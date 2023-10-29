@@ -5,8 +5,8 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { expandObj, flattenObj } from 'lib/object-parser';
 
 // Local
-import Iframe, { IframeProps } from './Iframe';
-import defaultData from './Iframe.mock-data';
+import Iframe, { IframeProps } from './IframeComponent';
+import defaultData from './IframeComponent.mock-data';
 
 const meta: Meta<typeof Iframe> = {
   title: 'Authorable/General/Iframe',

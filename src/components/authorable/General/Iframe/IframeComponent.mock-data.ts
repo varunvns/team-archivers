@@ -1,7 +1,5 @@
-import { IframeProps } from './Iframe';
-
 // Realistically this is going to have a lot more data from Sitecore or XM Cloud, but this is a good example mock data set.
-const defaultData: IframeProps = {
+const defaultData: any = {
   rendering: { componentName: 'Iframe' },
   params: {},
   fields: {

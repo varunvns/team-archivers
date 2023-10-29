@@ -1,12 +1,8 @@
 ﻿---
-ID: "f16c7a41-a237-4ea6-a01b-fdde653f132f"
-Parent: "96451aac-a053-4548-8e72-6f627ff08f5e"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Employee/EmployeeDetail/Data
-SharedFields:
-- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
-  Hint: __Sortorder
-  Value: 150
+ID: "3bd05741-3482-40a7-9ef8-716f5a9e69da"
+Parent: "74c1e6e5-f648-4160-81ce-b7aa0a51e2e6"
+Template: "74c1e6e5-f648-4160-81ce-b7aa0a51e2e6"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Tabs/TabList/__Standard Values
 Languages:
 - Language: en
   Versions:
@@ -14,22 +10,25 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T053850Z
+      Value: 20231029T062014Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\Varun
+        sitecore\devanshi
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Varun
+        sitecore\devanshi
+    - ID: "69a2c1d2-8fa5-4473-bb33-fa4a318cbfba"
+      Hint: Title
+      Value: $name
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cfc1e49c-970b-4eb9-b3ba-b5d4e65e1e90"
+      Value: "690f7c23-a754-4656-b838-3f5a93e47f64"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\devanshi
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T131001Z
+      Value: 20231029T062113Z
