@@ -19,8 +19,7 @@ export type ContentBlockProps = {
 
 const ContentBlock = ({ fields }: ContentBlockProps): JSX.Element => {
   // Fail out if fields aren't present
-  console.log(fields);
-  // if (fields === null || fields === undefined) return <></>;
+  if (fields === null || fields === undefined) return <></>;
 
   return (
     <div className="container mx-auto px-4 sm:px-8 xl:px-4 pt-14 pb-14 text-center">
