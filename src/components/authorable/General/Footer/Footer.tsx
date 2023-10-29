@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { ProjectArchive } from '../../../../../models/Feature.ProjectArchive.Model';
 import Text from '@/components/helpers/Text/Text';
 
@@ -9,7 +10,7 @@ const Footer = ({ fields }: FooterType): JSX.Element => {
   return (
     <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto flex flex-col items-center">
-        {/* <Image src={fields.Logo.value?.src} alt={'logo'} /> */}
+        <Image src={fields.Logo.value?.src || ''} alt={'logo'} height={30} width={70} />
 
         <Text tag={'h2'} text={fields?.Title?.value || ''} className="text-xl font-bold" />
 
@@ -26,8 +27,15 @@ const Footer = ({ fields }: FooterType): JSX.Element => {
                 href={sociallinks?.fields?.Link?.value?.href}
                 className="text-white hover:text-gray-400"
                 key={index}
+                target="_blank"
+                rel="noreferrer"
               >
-                {/* <Image src={sociallinks.fields.Icon.value.src} alt={'social link'} /> */}a
+                <Image
+                  src={sociallinks.fields.Icon.value.src}
+                  alt={'social link'}
+                  height={20}
+                  width={20}
+                />
               </a>
             );
           })}

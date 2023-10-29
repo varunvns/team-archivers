@@ -22,6 +22,9 @@ const nextConfig = {
   env: {
     PUBLIC_URL: publicUrl,
   },
+  images:{
+    domains:['projarchivesc.dev.local','*..ngrok-free.app'],
+  },
 
   i18n: {
     // These are all the locales you want to support in your application.
