@@ -9,5 +9,28 @@ module.exports = {
     }),
     require('@tailwindcss/typography'),
   ],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        'theme-bg': 'var(--theme-bg)',
+        'theme-text': 'var(--theme-text)',
+        'theme-border': 'var(--theme-border)',
+        blue: '#1fb6ff',
+        purple: '#7e5bef',
+        pink: '#ff49db',
+        orange: '#ff7849',
+        green: '#13ce66',
+      },
+    },
+  },
 };
+
+// theme: {
+//       colors: {
+//         blue: '#1fb6ff',
+//         purple: '#7e5bef',
+//         pink: '#ff49db',
+//         orange: '#ff7849',
+//         green: '#13ce66',
+//       },
+//   },
