@@ -166,6 +166,14 @@ export namespace ProjectArchive.PageTemplates.Client.Fields {
  }; 
 }
 
+export namespace ProjectArchive.PageTemplates.Fields {
+    export type Custom404 = 
+            ProjectArchive.PageTemplates.Fields.BasePage & { 
+        fields?: {  
+        }
+ }; 
+}
+
 export namespace ProjectArchive.PageTemplates.Employee.Fields {
     export type EmployeeDetail = 
             ProjectArchive.PageTemplates.Fields.BasePage & { 
@@ -332,6 +340,18 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Header.Fields {
  }; 
 }
 
+export namespace ProjectArchive.DatasourceTemplates.Global.IFrame.Fields {
+    export type Iframe = { 
+        fields?: { 
+            /**
+            * Represents the url field (233d1943-d74c-4f36-b0df-67fda8e6d475).
+            */
+            url: LinkField;
+ 
+        }
+ }; 
+}
+
 export namespace ProjectArchive.DatasourceTemplates.Global.Fields {
     export type MainSectionTemplateFolder = { 
         fields?: {  
@@ -424,6 +444,59 @@ export namespace ProjectArchive.DatasourceTemplates.Global.Fields {
 
 export namespace ProjectArchive.DatasourceTemplates.Global.Fields {
     export type SocialLinksFolder = { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace ProjectArchive.DatasourceTemplates.Global.Tabs.Fields {
+    export type Tab = { 
+        fields?: { 
+            /**
+            * Represents the Description field (8d36e465-6902-4de3-9250-83ea40e2aa0e).
+            */
+            Description: Field<string>;
+
+            /**
+            * Represents the ReadMoreLink field (46645b1a-e55d-4ae4-9a77-732d9dbc444a).
+            */
+            ReadMoreLink: LinkField;
+
+            /**
+            * Represents the Title field (d9f06c7f-4d43-4735-9050-41997045e2b4).
+            */
+            Title: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace ProjectArchive.DatasourceTemplates.Global.Tabs.Fields {
+    export type TabList = { 
+        fields?: { 
+            /**
+            * Represents the Tabs field (bdc99f0b-4b9e-4fb5-acd2-6af4541949d7).
+            */
+            Tabs: Sitecore.Override.ItemEx[];
+
+            /**
+            * Represents the Title field (69a2c1d2-8fa5-4473-bb33-fa4a318cbfba).
+            */
+            Title: Field<string>;
+ 
+        }
+ }; 
+}
+
+export namespace ProjectArchive.DatasourceTemplates.Global.Tabs.Fields {
+    export type TabListFolder = { 
+        fields?: {  
+        }
+ }; 
+}
+
+export namespace ProjectArchive.DatasourceTemplates.Global.Tabs.Fields {
+    export type TabsFolder = { 
         fields?: {  
         }
  }; 

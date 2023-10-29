@@ -4,6 +4,9 @@ Parent: "bfc151f3-9e0a-4706-bf84-f6c93ce8093f"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Client/ClientDetail/Data/Projects
 SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: "{DE29C482-77C6-42A1-ABDF-2553DB2FE415}"
 - ID: "21828437-ea4b-40a1-8c61-4ce60ea41db6"
   Hint: Validate Button
   Value: "{59D4EE10-627C-4FD3-A964-61A88B092CBC}"
@@ -37,11 +40,11 @@ Languages:
         sitecore\Ravi
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9291d4e6-5675-454e-af5e-9959c6ce7e54"
+      Value: "edbefe76-42b2-45cb-8213-c7b95fa905ea"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Varun
+        sitecore\devanshi
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T063216Z
+      Value: 20231028T131130Z

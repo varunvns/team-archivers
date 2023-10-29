@@ -1,39 +1,40 @@
-// import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-// import getThemeClasses, { ThemeOptions } from '@/lib/theming';
-import getThemeClasses, { ThemeOptions } from '@/lib/theming';
-import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, RichTextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import { RichText, Text } from '@sitecore-jss/sitecore-jss-nextjs';
 
-// Local
-import RichTextA11yWrapper from 'components/helpers/RichTextA11yWrapper/RichTextA11yWrapper';
-
-// Ideally, all this is from generated Typescript code from Sitecore and we're not manually defining types.
 interface Fields {
-  text: Field<string>;
+  data: {
+    item: {
+      title: Field<string>;
+      content: RichTextField;
+    };
+  };
 }
 
 export type ContentBlockProps = {
   rendering: { componentName: string };
   params: { [key: string]: string };
   fields: Fields;
+  route: any;
 };
 
 const ContentBlock = ({ fields }: ContentBlockProps): JSX.Element => {
   // Fail out if fields aren't present
-  if (fields === null || fields === undefined) return <></>;
-  const correspondingTheme = 'themeWhite';
-  const currentTheme = getThemeClasses(correspondingTheme as ThemeOptions);
+  console.log(fields);
+  // if (fields === null || fields === undefined) return <></>;
+
   return (
-    <div
-      className={`${currentTheme}`}
-      data-component="authorable/general/contentblock"
-      data-testid="contentblock"
-    >
-      <p className="font-bold">ContentBlock</p>
-      <RichTextA11yWrapper data-testid="contentblock" field={fields.text} editable />
+    <div className="container mx-auto px-4 sm:px-8 xl:px-4 pt-14 pb-14 text-center">
+      <Text
+        className="text-4xl leading-10 mb-4 font-semibold"
+        tag="h2"
+        field={fields.data.item.title}
+      />
+      <RichText
+        className="mb-4  text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto"
+        field={fields.data.item.content}
+      />
     </div>
   );
 };
 
-// @todo: Figure out how to mock isPageEditing, or if it even matters, in Storybook.
-// export default withDatasourceCheck()<ContentBlockProps>(ContentBlock);
 export default ContentBlock;
