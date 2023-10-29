@@ -1,5 +1,6 @@
 // import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { Text, Link, Image } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Text, Image, RichText } from '@sitecore-jss/sitecore-jss-nextjs';
+import React from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 //import Slider from 'react-slick';
@@ -27,16 +28,21 @@ const Carousel = ({ fields }: CarouselProps): JSX.Element => {
     slidesToScroll: 1,
   };
   return (
-    <div>
+
+    <div className="bg-teal-600 text-center p-10">
       {fields?.Heading?.value && <h2> {fields?.Heading?.value} </h2>}
       {fields?.Description?.value && <Text tag="p" field={fields?.Description} />}
       <Slider {...settings}>
         {fields?.Cards?.map((crd, index) => (
           <div key={index}>
-            {crd?.fields?.Thumbnail?.value && <Image field={crd?.fields?.Thumbnail} />}
-            {crd?.fields?.Name?.value && <Text tag="div" field={crd?.fields?.Name} />}
-            {crd?.fields?.Description?.value && <Text tag="p" field={crd?.fields?.Description} />}
-            {crd?.fields?.CTA?.value?.href && <Link field={crd?.fields?.CTA}></Link>}
+            {crd?.fields?.BannerImage?.value && <Image field={crd?.fields?.BannerImage} />}
+            {crd?.fields?.Name?.value && (
+              <Text tag="h1" className="text-7xl pb-3" field={crd.fields.Name} />
+            )}
+            {crd?.fields?.Description?.value && (
+              <RichText tag="p" className="pr-20 pl-20" field={crd.fields.Description} />
+            )}
+            {/* {crd?.fields?.CTA?.value?.href && <Link field={crd?.fields?.CTA}></Link>} */}
           </div>
         ))}
       </Slider>
