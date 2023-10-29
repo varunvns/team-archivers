@@ -34,7 +34,7 @@ const Breadcrumb = ({ fields }: BreadcrumbProps): JSX.Element => {
         <nav className="container">
           <ol className="list-reset py-4 pl-4 rounded flex bg-grey-light text-grey">
             {fields?.data?.item.ancestors !== null &&
-              fields?.data?.item.ancestors.reverse().map((anc, index) => (
+              fields?.data?.item.ancestors.reverse().map((anc) => (
                 <>
                   <li className="px-2">
                     <a href={anc.url?.path} className="no-underline text-indigo">
