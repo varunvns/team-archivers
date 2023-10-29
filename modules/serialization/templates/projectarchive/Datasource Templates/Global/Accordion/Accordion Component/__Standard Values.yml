@@ -1,12 +1,8 @@
 ﻿---
-ID: "2d35b91e-9661-4d98-a3e4-59af2d292330"
-Parent: "58005d9c-04a5-4f5a-a805-3363df660539"
-Template: "58005d9c-04a5-4f5a-a805-3363df660539"
-Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordion/Accordion Folder/__Standard Values
-SharedFields:
-- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
-  Hint: __Masters
-  Value: "{E4881E60-3D19-44C2-B8F1-B62E6DE6920E}"
+ID: "6e1d8e9a-4ed2-4105-81c4-967c9b85c2b4"
+Parent: "e4881e60-3d19-44c2-b8f1-b62e6de6920e"
+Template: "e4881e60-3d19-44c2-b8f1-b62e6de6920e"
+Path: /sitecore/templates/Feature/projectarchive/Datasource Templates/Global/Accordion/Accordion Component/__Standard Values
 Languages:
 - Language: en
   Versions:
@@ -14,22 +10,25 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20231028T094815Z
+      Value: 20231029T084038Z
+    - ID: "448bc5ab-3e1e-4fb4-9614-6205a4ad9813"
+      Hint: Title
+      Value: $name
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
-        sitecore\Admin
+        sitecore\Varun
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        sitecore\Admin
+        sitecore\Varun
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6f0deeba-0f4d-43af-8489-bb60e39e168b"
+      Value: "fa198034-b8dd-4cd4-9661-2181609d6ba1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231029T083928Z
+      Value: 20231029T084044Z

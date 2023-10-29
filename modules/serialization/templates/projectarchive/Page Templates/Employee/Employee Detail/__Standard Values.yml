@@ -3,6 +3,15 @@ ID: "60c6ae5f-ed15-4293-ae86-2a91da40a2ee"
 Parent: "826018f7-ea76-4f76-9e7b-d0bec6c4bf22"
 Template: "826018f7-ea76-4f76-9e7b-d0bec6c4bf22"
 Path: /sitecore/templates/Feature/projectarchive/Page Templates/Employee/Employee Detail/__Standard Values
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}" />
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -22,6 +31,33 @@ Languages:
               s:id="{A476DC90-DACD-42C1-AE92-5EF8105863EC}"
               s:par=""
               s:ph="headless-header"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{D5AB9ACB-ACC9-4DF1-BD5D-AB2A0F7FCEEF}"
+              p:after="r[@uid='{8667C4C3-0607-49DC-8845-6531F6610067}']"
+              s:id="{01162E36-73EA-42B8-90BE-B2D7C9EF7E2C}"
+              s:par="CacheClearingBehavior=Clear%20on%20publish"
+              s:ph="headless-main" />
+            <r
+              uid="{5985119B-A5FE-4B35-AF2E-567B94C70F9E}"
+              p:after="r[@uid='{D5AB9ACB-ACC9-4DF1-BD5D-AB2A0F7FCEEF}']"
+              s:ds="{16A1C665-4142-4465-834A-9EC623AA8945}"
+              s:id="{93B1F735-F958-4F45-B7D6-78A88C745DDA}"
+              s:par=""
+              s:ph="headless-main"
+              s:ccb="Clear on publish" />
+            <r
+              uid="{E87FC805-721B-4782-967B-AD0EE76EC7D4}"
+              p:after="r[@uid='{5985119B-A5FE-4B35-AF2E-567B94C70F9E}']"
+              s:id="{DA153F87-BBC1-4D9B-B969-1014696D96C0}"
+              s:ph="headless-main" />
+            <r
+              uid="{5E4EFC35-CFB8-4EC0-B8F8-C02FE3B9AAE6}"
+              p:after="r[@uid='{E87FC805-721B-4782-967B-AD0EE76EC7D4}']"
+              s:ds="{7E0F6D92-C62B-4C4C-ACB9-41EBB8468845}"
+              s:id="{CA5A122F-7CB6-4925-BE9E-7ED59C259B18}"
+              s:par=""
+              s:ph="headless-main"
               s:ccb="Clear on publish" />
             <r
               uid="{454F1665-F348-45C1-948A-D5D4ACEF8FF9}"
@@ -46,11 +82,11 @@ Languages:
         sitecore\Varun
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "511206b7-2fb5-4edb-9db3-3f8997e56835"
+      Value: "dfebf1ab-24e5-4991-b3d9-7cf3d0858147"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Nilay
+        sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T112446Z
+      Value: 20231029T083738Z

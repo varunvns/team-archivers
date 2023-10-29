@@ -29,7 +29,8 @@ const Carousel = ({ fields }: CarouselProps): JSX.Element => {
   };
   return (
     <div className="bg-teal-600 text-center p-10">
-      {/* <h2> Single Item</h2> */}
+      {fields?.Heading?.value && <h2> {fields?.Heading?.value} </h2>}
+      {fields?.Description?.value && <Text tag="p" field={fields?.Description} />}
       <Slider {...settings}>
         {fields?.Cards?.map((crd, index) => (
           <div key={index}>

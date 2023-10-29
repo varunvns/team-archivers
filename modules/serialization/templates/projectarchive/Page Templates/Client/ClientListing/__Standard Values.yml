@@ -3,6 +3,10 @@ ID: "7ee40511-03b5-4283-81a6-fd8eb24fafa3"
 Parent: "b6796264-f108-4925-b876-abce4a9f9abf"
 Template: "b6796264-f108-4925-b876-abce4a9f9abf"
 Path: /sitecore/templates/Feature/projectarchive/Page Templates/Client/ClientListing/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{F95DB117-6C4E-4516-8BE6-434C16A8F9C6}"
 Languages:
 - Language: en
   Versions:
@@ -46,11 +50,11 @@ Languages:
         sitecore\Nilay
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "be86e38f-391a-47ac-a0fd-25675d771c7f"
+      Value: "7ecb1321-ac96-46ee-b0ee-2e00cc57ec0a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Nilay
+        sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T112442Z
+      Value: 20231029T072433Z

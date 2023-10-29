@@ -3,6 +3,10 @@ ID: "62d259bc-0fb2-4ac9-8697-1d5e8e2bbca0"
 Parent: "e16828c4-f994-47a5-9975-150b675b9a0b"
 Template: "e16828c4-f994-47a5-9975-150b675b9a0b"
 Path: /sitecore/templates/Feature/projectarchive/Page Templates/Employee/Employee Listing/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{826018F7-EA76-4F76-9E7B-D0BEC6C4BF22}"
 Languages:
 - Language: en
   Versions:
@@ -46,11 +50,11 @@ Languages:
         sitecore\Varun
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "810c6a3d-fba6-4b5c-9dc7-77f6df1a0687"
+      Value: "7f6fa17c-7517-4a31-9631-d166a285bbd3"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\Nilay
+        sitecore\Varun
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20231028T112450Z
+      Value: 20231029T072449Z
