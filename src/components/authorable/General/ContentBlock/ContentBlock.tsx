@@ -1,4 +1,6 @@
 // import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+// import getThemeClasses, { ThemeOptions } from '@/lib/theming';
+import getThemeClasses, { ThemeOptions } from '@/lib/theming';
 import { Field } from '@sitecore-jss/sitecore-jss-nextjs';
 
 // Local
@@ -18,10 +20,11 @@ export type ContentBlockProps = {
 const ContentBlock = ({ fields }: ContentBlockProps): JSX.Element => {
   // Fail out if fields aren't present
   if (fields === null || fields === undefined) return <></>;
-
+  const correspondingTheme = 'themeWhite';
+  const currentTheme = getThemeClasses(correspondingTheme as ThemeOptions);
   return (
     <div
-      className="bg-theme-bg border border-b-4 border-b-primary border-black dark:border-gray dark:border-b-primary max-w-lg p-2 rounded"
+      className={`${currentTheme}`}
       data-component="authorable/general/contentblock"
       data-testid="contentblock"
     >
